@@ -1,3 +1,89 @@
-.logo-header {
-    width: 70px;
+/* Global Style Guide */
+
+body {
+    background-color: #111a26;
+    font-family: 'DM Sans', sans-serif;
+    color: #64798c;
 }
+
+a {
+    color: #64798c;
+}
+
+.theme-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+section {
+    height: 100vh;
+}
+
+.logo {
+    fill: #64798c;
+    width: 70px;
+    height: auto;
+}
+
+
+h1 {
+    font-family: 'Nickainley', sans-serif;
+}
+
+    /* CTA and it's animations */
+
+
+    /* Header */
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+    }
+
+    .logo-header {
+        flex-basis: 20%;
+        text-align: center;
+    }
+
+    .logo-header svg {
+        width: 70px;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header ul li {
+        padding: 20px;
+    }
+
+/* Home Page Styling */
+
+#sec1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#sec1 > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#sec1 .logo {
+    width: 45vw;
+}
+
+#sec1 h1 {
+    font-size: 15vw;
+    text-align: end ;
+}
+
+#sec1 h2 {
+    padding-top: 5px;
+}
+
