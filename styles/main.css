@@ -4,6 +4,7 @@ body {
     background-color: #111a26;
     font-family: 'DM Sans', sans-serif;
     color: #64798c;
+    overflow-x: hidden;
 }
 
 a {
@@ -13,10 +14,6 @@ a {
 .theme-wrapper {
     max-width: 1920px;
     margin: 0 auto;
-}
-
-section {
-    height: 100vh;
 }
 
 .logo {
@@ -49,6 +46,7 @@ h1 {
 
     .logo-header svg {
         width: 70px;
+        fill: #64798c;
     }
 
     header ul {
@@ -59,31 +57,116 @@ h1 {
         padding: 20px;
     }
 
+    /* Footer */
+    #footer {
+        width: 100%;
+        height: 485px;
+    }
+
 /* Home Page Styling */
 
-#sec1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
+    /* Section 1 Banner Image */
 
-#sec1 > div {
-    display: flex;
-    justify-content: space-between;
-}
+    #banner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url(../images/test-portrait-2.jpg);
+        background-size: cover;
+        background-color: #4586dc;
+        height: 70vh;
+    }
+
+    #banner > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #banner .logo {
+        width: 45vw;
+    }
+
+    #banner h1 {
+        font-size: 15vw;
+        text-align: end ;
+    }
+
+    #banner h2 {
+        padding-top: 5px;
+    }
+
+    /* Section 2 - Featured Section */
+
+    #featured {
+        height: 70vh;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #featured h2 {
+        font-size: 5rem;
+        font-family: 'Nickainley', sans-serif;
+        height: 100px;
+    }
+
+    #featured .feats-container {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #featured .card {
+        flex-basis: 45%;
+        background-color: #64798c;
+        height: 486px;
+        border-radius: 20px;
+        position: relative;
+        transition: 0.33s;
+        overflow-y: hidden;
+        min-width: 320px;
+    }
+
+    #featured img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+        transition: 0.33s;
+    }
+
+    #featured .card:hover img {
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
+    }
+
+    #featured .overlay {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transition: 0.33s;
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(17, 26, 38) 90%);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #featured .card:hover .overlay {
+        height: 25%;
+    }
+
+    #featured h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        white-space: nowrap;
+        text-shadow: 3px 5px 3px rgb(17, 26, 38);
+    }
 
 
-
-#sec1 .logo {
-    width: 45vw;
-}
-
-#sec1 h1 {
-    font-size: 15vw;
-    text-align: end ;
-}
-
-#sec1 h2 {
-    padding-top: 5px;
-}
 
