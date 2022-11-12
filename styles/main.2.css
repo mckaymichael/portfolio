@@ -61,9 +61,16 @@ header {
 }
 
 header .logo-container {
+    display: flex;
+    align-items: center;
     width: 35px;
+    max-width: 60px;
     height: auto;
     margin-left: 20px;
+}
+
+header .logo {
+    width: 100%;
 }
 
 .header-nav ul {
@@ -83,7 +90,17 @@ header .logo-container {
     display: none;
 }
 
+    @media (min-width: 481px) {
+        header .logo-container {
+            width: 10vw;
+        }
+    }
+
     @media (min-width: 769px) {
+        header .logo-container {
+            width: 60px;
+        }
+
         .header-nav span {
             display: inline-block;
         }
@@ -126,18 +143,18 @@ footer .logo-container {
 }
 
 .contact-section {
-    width: 100%; 
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
 }
 
 .contact-section input {
-    background-color: rgb(17, 26, 38, 0.3);
+    background-color: rgba(17, 26, 38, 0.3);
     border: solid 2px rgb(17, 26, 38);
     text-decoration: none;
     padding: 10px;
-    width: 100%;
+    width: 100%; 
 }
 
 .contact-section input::placeholder {
@@ -156,7 +173,6 @@ footer .email-input {
 .contact-section .message-input input {
     width: 100%;
     height: 200px;
-    word-wrap: break-word;
 }
 
 footer .contact-info * {
@@ -201,7 +217,7 @@ footer nav {
 }
 
 footer .socials {
-    margin: 50px 0;
+    margin: 50px auto;
     display: flex;
     width: 50%;
     max-width: 250px;
@@ -212,7 +228,6 @@ footer .socials {
 .copyright {
     padding-bottom: 10px;
 }
-
 
 /*
 ============== Home Page =============
@@ -238,7 +253,7 @@ footer .socials {
 
 #banner h2 {
     font-weight: 500;
-    padding-bottom: 5px;
+    padding: 5px 0;
 }
 
 /* Featured Section */
@@ -299,6 +314,53 @@ footer .socials {
     border: #c5d1d9 solid 2px;
     padding: 10px 15px;
     margin-right: 10px;
+}
+
+@media (min-width: 769px) {
+    #banner {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80vh;
+    }
+
+    #banner .titles {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #banner h1 {
+        font-size: 5vw;
+    }
+    
+    #banner h2 {
+        font-size: 2vw;
+        padding-top: 10px;
+    }
+
+    #featured {
+        height: 50vw;
+    }
+
+    .feature-blocks {
+        flex-direction: row;
+    }
+
+    .feature-blocks .content {
+        margin: 40px 20px;
+        height: 25vw;
+    }
+
+    #featured .image-container img {
+        height: 25vw;
+    }
+
+    #featured h2 {
+        font-size: 4vw;
+    }
+    #featured .content h3 {
+        font-size: 2.7vw;
+    }
+    
 }
 
 
