@@ -41,8 +41,6 @@ a {
 
 .logo {
     fill: #c5d1d9;
-    /* width: 70px; */
-    /* height: auto; */
 }
 
 
@@ -57,7 +55,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
 }
 
 header .logo-container {
@@ -311,6 +308,8 @@ footer .socials {
 }
 
 #featured .chip {
+    display: flex;
+    align-items: center;
     border: #c5d1d9 solid 2px;
     padding: 10px 15px;
     margin-right: 10px;
