@@ -102,6 +102,11 @@ footer {
     padding: 1px 20px;
 }
 
+footer .theme-wrap {
+    width: fit-content;
+    max-width: 1080px;
+}
+
 footer h2 {
     font-size: 2rem;
     padding-bottom: 15px;
@@ -112,15 +117,16 @@ footer .content {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
 }
 
-#footer .logo-container {
+footer .logo-container {
     width: 40%;
     align-self: center;
 }
 
 .contact-section {
-    width: 100%;
+    width: 100%; 
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
@@ -141,6 +147,10 @@ footer .content {
 
 footer .email-input {
     margin-bottom: 35px;
+}
+
+.contact-section .message-input {
+    max-width: 480px;
 }
 
 .contact-section .message-input input {

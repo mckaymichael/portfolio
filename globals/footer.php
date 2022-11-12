@@ -1,41 +1,43 @@
 <footer id="footer">
-    <div class="content">
-        <div class="logo-container">
-            <?php require('images/logo.svg')?>
-        </div>
-        <div class="contact-section">
-            <div class="content">
-                <h2 class="nickainley-font">Let's get to business!</h2>
-                <div class="email-input">
-                    <input type="text" placeholder="Enter email address">
+    <div class="theme-wrap">
+        <div class="content">
+            <div class="logo-container">
+                <?php require('images/logo.svg')?>
+            </div>
+            <div class="contact-section">
+                <div class="content">
+                    <h2 class="nickainley-font">Let's get to business!</h2>
+                    <div class="email-input">
+                        <input type="text" placeholder="Enter email address">
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact info:</h3>
+                        <a href="mailto:mckaymichaelk@gmail.com">mckaymichaelk@gmail.com</a>
+                        <a href="tel:+16048259224">6048259224</a>
+                    </div>
                 </div>
-                <div class="contact-info">
-                    <h3>Contact info:</h3>
-                    <a href="mailto:mckaymichaelk@gmail.com">mckaymichaelk@gmail.com</a>
-                    <a href="tel:+16048259224">6048259224</a>
+                <div class="message-input">
+                    <input type="text" placeholder="What do you want to talk about?"> 
                 </div>
             </div>
-            <div class="message-input">
-                <input type="text" placeholder="What do you want to talk about?"> 
-            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.php"><i class="fa-solid fa-house" title="Home"></i><span>Home</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user xl" title="About me"></i><span>About</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone lg" title="Contact"></i><span>Contact</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-screwdriver-wrench" title="Skills"></i><span>Skills</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-pen-ruler" title="Projects"></i><span>Projects</span></a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="footer-nav">
-            <ul>
-                <li><a href="index.php"><i class="fa-solid fa-house" title="Home"></i><span>Home</span></a></li>
-                <li><a href="#"><i class="fa-solid fa-user xl" title="About me"></i><span>About</span></a></li>
-                <li><a href="#"><i class="fa-solid fa-phone lg" title="Contact"></i><span>Contact</span></a></li>
-                <li><a href="#"><i class="fa-solid fa-screwdriver-wrench" title="Skills"></i><span>Skills</span></a></li>
-                <li><a href="#"><i class="fa-solid fa-pen-ruler" title="Projects"></i><span>Projects</span></a></li>
-            </ul>
-        </nav>
+        <div class="line-break"></div>
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-dev"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p class="copyright">&copy;Michael McKay 2022</p>
     </div>
-    <div class="line-break"></div>
-    <ul class="socials">
-        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-dev"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-    </ul>
-    <p class="copyright">&copy;Michael McKay 2022</p>
 </footer>
