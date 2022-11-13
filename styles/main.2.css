@@ -29,9 +29,6 @@ section {
     padding: 50px 20px 50px 20px;
 }
 
-a {
-    color: #c5d1d9;
-}
 
 .theme-wrapper {
     max-width: 1920px;
@@ -39,6 +36,18 @@ a {
     height: 100%;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+a, button {
+    color: #c5d1d9;
+    font-size: 16px;
+}
+
+p {
+    line-height: 22px;
+}
 .logo {
     fill: #c5d1d9;
 }
@@ -244,10 +253,6 @@ footer .socials {
     padding: 50px 0px 20px 0px;
 }
 
-#banner h1 {
-    font-size: 2.5rem;
-}
-
 #banner h2 {
     font-weight: 500;
     padding: 5px 0;
@@ -265,7 +270,7 @@ footer .socials {
     width: 100%;
 }
 
-.content {
+#featured .content {
     width: 100%;
     height: 100%;
     position: relative;
@@ -360,6 +365,138 @@ footer .socials {
         font-size: 2.7vw;
     }
     
+}
+
+/*
+============== About Me Page =============
+*/
+
+.banner-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-sec .images-of-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    max-width: 800px;
+}
+
+.portrait {
+    max-width: 80%;
+    border-radius: 10px;
+    border: #64798c solid 2px;
+}
+
+.portrait:nth-child(2), .portrait:nth-child(3) {
+    position: absolute;
+    box-shadow: #64798c 0px 0px 5px;
+}
+
+.portrait:nth-child(2) {
+    top: 4px;
+    left: 0;
+    width: 26vw;
+}
+
+.portrait:nth-child(3) {
+    bottom: 0px;
+    right: 0;
+    width: 33vw;
+}
+
+.banner-sec .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: calc(100% + 40px);
+    padding-top: 50px;
+}
+
+.banner-sec h1 {
+    padding-bottom: 20px;
+}
+
+.core-values-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.core-values-sec h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.core-values-sec .values {
+    display: grid;
+    grid-template: auto / repeat(2, 40vw);
+    gap: 10px 20px;
+    justify-items: center;
+}
+
+.core-values-sec .values button {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 264px;
+    padding: 0;
+    border: solid #c5d1d9 2px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.mission-sec {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* ***** */
+.mission-sec h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 769px) {
+
+    .banner-sec {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .portrait:nth-child(2) {
+        width: 12vw;
+        max-width: 250px;
+    }
+    
+    .portrait:nth-child(3) {
+        width: 15vw;
+        max-width: 280px;
+    }
+
+    .mission-sec h2, .core-values-sec h2 {
+        font-size: 4vw;
+    }
+
+    .banner-sec .content {
+        max-width: 600px;
+        align-self: center;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 944px) {
+    .core-values-sec .values {
+        grid-template-columns: repeat(3, 264px);
+    }
 }
 
 
