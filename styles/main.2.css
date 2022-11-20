@@ -11,7 +11,7 @@ body {
     font-size: 16px;
 }
 
-input {
+input, textarea {
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
 }
@@ -50,6 +50,10 @@ p {
 }
 .logo {
     fill: #c5d1d9;
+}
+
+.display-none {
+    display: none;
 }
 
 
@@ -156,7 +160,7 @@ footer .logo-container {
     padding-bottom: 50px;
 }
 
-.contact-section input {
+.contact-section input, .contact-section textarea {
     background-color: rgba(17, 26, 38, 0.3);
     border: solid 2px rgb(17, 26, 38);
     text-decoration: none;
@@ -164,7 +168,7 @@ footer .logo-container {
     width: 100%; 
 }
 
-.contact-section input::placeholder {
+.contact-section input::placeholder, .contact-section textarea::placeholder {
     color: #c5d1d9;
     opacity: 0.5;
 }
@@ -177,7 +181,7 @@ footer .email-input {
     max-width: 480px;
 }
 
-.contact-section .message-input input {
+.contact-section .message-input textarea {
     width: 100%;
     height: 200px;
 }
@@ -294,6 +298,10 @@ footer .socials {
     width: 100%;
     height: 200px;
     border-radius: 20px;
+}
+
+#featured .image-container a {
+    border-radius: inherit;
 }
 
 #featured .image-container img {
@@ -497,6 +505,300 @@ footer .socials {
 @media (min-width: 944px) {
     .core-values-sec .values {
         grid-template-columns: repeat(3, 264px);
+    }
+}
+
+
+/*
+============== Projects Page =============
+*/
+
+.projects section {
+    padding: 0 20px;
+}
+
+.projects .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .proj-img-display {
+    height: 65vw;
+    width: 100%;
+    min-height: 280px;
+    max-width: 1300px;
+    background: center / contain no-repeat;
+}
+
+.projects .brightsky-mob .proj-img-display{
+    background-image: url(../images/brightsky-mobile-s.png);
+}
+.projects .vizro .proj-img-display {
+    background-image: url(../images/vizro-s.png);
+
+}
+.projects .js-web .proj-img-display {
+    background-image: url(../images/js-website-s.png);
+
+}
+.projects .brightsky-web .proj-img-display {
+    background-image: url(../images/brightsky-web-s.png);
+
+}
+
+.projects .content {
+    max-width: 500px;
+}
+
+.projects h1, .projects h2 {
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+}
+
+.projects .text {
+    margin-bottom: 20px;
+}
+
+.projects button {
+    max-width: 264px;
+    padding: 15px 30px;
+    border: solid #c5d1d9 2px;
+    font-weight: 700;
+    justify-content: center;
+    transition: all 0.33s;
+    cursor: pointer;
+}
+
+.projects button:hover {
+    box-shadow: inset 0 0 10px;
+}
+
+.projects .padding-bottom {
+    padding-bottom: 50px;
+}
+
+@media (min-width: 769px) {
+
+    .projects .flex {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .projects .flex-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .projects h1, .projects h2 {
+        font-size: 2.7vw;
+    }
+
+    .projects .padding-bottom {
+        padding-bottom: 0px;
+    }
+
+    .projects .brightsky-mob .proj-img-display {
+        background-image: url(../images/brightsky-mobile-m.png);
+    }
+    .projects .vizro .proj-img-display {
+        background-image: url(../images/vizro-m.png);
+    }
+    .projects .js-web .proj-img-display {
+        background-image: url(../images/js-website-m.png);
+    }
+    .projects .brightsky-web .proj-img-display {
+        background-image: url(../images/brightsky-web-m.png);
+    }
+}
+@media (min-width: 992px) {
+    .projects .brightsky-mob .proj-img-display{
+        background-image: url(../images/brightsky-mobile-lg.png);
+    }
+    .projects .vizro .proj-img-display{
+        background-image: url(../images/vizro-lg.png);
+    }
+    .projects .js-web .proj-img-display{
+        background-image: url(../images/js-website-lg.png);
+
+    }
+    .projects .brightsky-web .proj-img-display{
+        background-image: url(../images/brightsky-web-lg.png);
+    }
+}
+
+/*
+============== Vizro Page =============
+*/
+
+.vizro .title-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vizro h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+.vizro h2 {
+    font-size: 2.5rem;
+}
+
+.vizro .topics-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.vizro .topics {
+    height: auto;
+}
+
+.vizro .topic {
+    width: 100%;
+    /* height: 78px; */
+    padding: 15px 30px;
+    border: solid #c5d1d9 2px;
+    font-weight: 700;
+    justify-content: center;
+    transition: all 0.33s;
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vizro .topic p {
+    font-weight: 400;
+    padding:10px 0 10px 0;
+    /* display: none; */
+}
+
+.vizro .topic h3 {
+    font-size: 1.5rem;
+}
+
+.vizro .topic:hover {
+    box-shadow: inset 0 0 10px;
+}
+
+.vizro .mobile-display img {
+    width:  100%;
+}
+
+.vizro img {
+    max-width: 100%;
+}
+
+.vizro .desktop-display {
+    display: none;
+}
+
+.vizro .opacity-fltr {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.vizro .desktop-display .overlay {
+    width: 90%;
+    max-width: 450px;
+    height: 50%;
+    border-radius: 0px 750px 750px 0px;
+    background-color: #64798c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vizro .overlay h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 20px;
+}
+
+.vizro .overlay p {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.vizro .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vizro .results .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vizro .results h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.vizro .results img {
+    padding: 0 20px;
+}
+.vizro .results p {
+    padding: 20px 0;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.vizro .vizro-all {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 769px) {
+
+    .vizro .results h2 {
+        font-size: 3.7vw;
+    }
+
+    .vizro .mobile-display {
+        display: none;
+    }
+
+    .vizro .topics-sec {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .vizro .topics {
+        flex-basis: 40%;
+    }
+
+    .vizro .desktop-display {
+        position: relative;
+        display: block;
+        flex-basis: 40%;
+        height: inherit;
+        background: center / cover no-repeat;
+        background-image: url(../images/comp-analysis.jpg);
+    }
+
+    .vizro .results .content {
+        flex-direction: row;
+        justify-content: center;
     }
 }
 

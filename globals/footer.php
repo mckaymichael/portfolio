@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="message-input">
-                    <input type="text" placeholder="What do you want to talk about?"> 
+                    <textarea type="text" placeholder="What do you want to talk about?"></textarea>
                 </div>
             </div>
             <nav class="footer-nav">
