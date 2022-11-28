@@ -628,10 +628,10 @@ footer .socials {
 }
 
 /*
-============== Vizro Page =============
+============== Artifacts CSS =============
 */
 
-.vizro .title-sec {
+.artifact .title-sec {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -639,28 +639,27 @@ footer .socials {
     align-items: center;
 }
 
-.vizro h1 {
+.artifact h1 {
     text-align: center;
     font-size: 4.5rem;
     max-width: 500px;
     padding-bottom: 50px;
 }
-.vizro h2 {
+.artifact h2 {
     font-size: 2.5rem;
 }
 
-.vizro .topics-sec {
+.artifact .topics-sec {
     display: flex;
     flex-direction: column;
 }
 
-.vizro .topics {
+.artifact .topics {
     height: auto;
 }
 
-.vizro .topic {
+.artifact .topic {
     width: 100%;
-    /* height: 78px; */
     padding: 15px 30px;
     border: solid #c5d1d9 2px;
     font-weight: 700;
@@ -673,40 +672,39 @@ footer .socials {
     justify-content: center;
 }
 
-.vizro .topic p {
+.artifact .topic p {
     font-weight: 400;
     padding:10px 0 10px 0;
-    /* display: none; */
 }
 
-.vizro .topic h3 {
+.artifact .topic h3 {
     font-size: 1.5rem;
 }
 
-.vizro .topic:hover {
+.artifact .topic:hover {
     box-shadow: inset 0 0 10px;
 }
 
-.vizro .mobile-display img {
+.artifact .mobile-display img {
     width:  100%;
 }
 
-.vizro img {
+.artifact img {
     max-width: 100%;
 }
 
-.vizro .desktop-display {
+.artifact .desktop-display {
     display: none;
 }
 
-.vizro .opacity-fltr {
+.artifact .opacity-fltr {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.vizro .desktop-display .overlay {
+.artifact .desktop-display .overlay {
     width: 90%;
     max-width: 450px;
     height: 50%;
@@ -721,7 +719,7 @@ footer .socials {
     justify-content: center;
 }
 
-.vizro .overlay h4 {
+.artifact .overlay h4 {
     font-size: 1.8rem;
     font-weight: 700;
     padding-bottom: 20px;
@@ -729,65 +727,65 @@ footer .socials {
     padding-left: 20px;
 }
 
-.vizro .overlay p {
+.artifact .overlay p {
     padding-left: 20px;
     padding-right: 30px;
 }
 
-.vizro .results {
+.artifact .results {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.vizro .results .content {
+.artifact .results .content {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.vizro .results h3 {
+.artifact .results h3 {
     font-size: 1.5rem;
     font-weight: 700;
     padding: 20px 0;
     text-align: center;
 }
 
-.vizro .results img {
+.artifact .results img {
     padding: 0 20px;
 }
-.vizro .results p {
+.artifact .results p {
     padding: 20px 0;
     text-align: center;
     max-width: 1000px;
 }
 
-.vizro .vizro-all {
+.artifact .artifact-all {
     display: flex;
     justify-content: center;
 }
 
 @media (min-width: 769px) {
 
-    .vizro .results h2 {
+    .artifact .results h2 {
         font-size: 3.7vw;
     }
 
-    .vizro .mobile-display {
+    .artifact .mobile-display {
         display: none;
     }
 
-    .vizro .topics-sec {
+    .artifact .topics-sec {
         flex-direction: row;
         justify-content: space-around;
     }
     
-    .vizro .topics {
+    .artifact .topics {
         flex-basis: 40%;
     }
 
-    .vizro .desktop-display {
+    .artifact .desktop-display {
         position: relative;
         display: block;
         flex-basis: 40%;
@@ -796,108 +794,15 @@ footer .socials {
         background-image: url(../images/comp-analysis.jpg);
     }
 
-    .vizro .results .content {
+    .artifact .results .content {
         flex-direction: row;
         justify-content: center;
     }
 }
 
+/* Artifacts CSS for Specific Pages */
 
-
-
-
-/*
----------------Header Nav------------------
-
-.header-nav {
-    background-color: rgb(113, 138, 138);
-    border-radius: 0 0 100px 100px;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-between;
-    transition: 0.33s ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0%);
-}
-
-header ul {
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 80%;
-    transition-delay: 0.5s;
-}
-
-header li {
-    visibility: hidden;
-    width: 0px;
-    height: 50px;
-    background-color: rgb(104, 104, 205);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    color: white;
-    transition: 0.33s;
-    opacity: 0;
-}
-
-.menu-btn {
-    background-color: rgb(113, 138, 138);
-    position: absolute;
-    top: 0;
-    border-radius: 0 0 100px 100px;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all 0.33s;
-    border: solid rgba(0, 0, 0, 0) 3px;
-    border-top: none;
-}
-
-.arrow {
-    transition: all 0.33s;
-    color: white;
-}
-
---------------Active State Menu Styling----------------
-
-    .nav-active {
-        width: 100%;
-        height: 100vh;
+    /* BrightSky Web Layout */
+    .brightsky-logo {
+        width: 500px;
     }
-
-    .nav-active ul {
-        visibility: visible;
-    }
-
-    .nav-active div {
-        border: solid rgba(0, 0, 0, 0.375) 3px;
-        border-top: none;
-    }
-
-    .nav-active div .arrow {
-        rotate: 180deg;
-    }
-
-    .nav-active li {
-        visibility: visible;
-        width: 200px;
-        opacity: 1;
-    }
-
-    header li:hover {
-        box-shadow: inset rgb(34, 34, 56)  0 0 30px;
-    }
-*/

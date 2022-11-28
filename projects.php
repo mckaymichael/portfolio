@@ -33,7 +33,7 @@
                 <div class="content padding-bottom">
                     <h2 class="nickainley-font">BrightSky Website</h2>
                     <p class="text">BrightSky is a personal project of mine. This is the desktop version. It&apos;s an encyclopedia page for starts and constellations. The goal for it was to make a website that was interactive so that kids who are curious can genuinely enjoy exploring the website.</p>
-                    <button>See More</button>
+                    <button><a href="brightsky-web.php"> See More</a></button>
                 </div>
             </section>
         </main>

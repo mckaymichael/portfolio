@@ -5,8 +5,8 @@
     <div class="theme-wrapper">
         <main class="artifact">
             <section class="title-sec">
-                <h1 class="nickainley-font">Vizro Records Record Label</h1>
-                <img src="images/vizro-logo.png" alt="">
+                <h1 class="nickainley-font">BrightSky Website UX Mockup</h1>
+                <img class="brightsky-logo" src="images/brightSky-logo.png" alt="">
             </section>
             <section class="topics-sec">
                 <div class="topics">
@@ -15,8 +15,8 @@
                         <h3>Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
-                            <p class="paragraph"> I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
-                            <img src="images/vizro-style-tile.png" alt="">
+                            <p class="paragraph">Being pressured for time in a fast paced world, I was forced to think quickly and effectively for this design. Rather than coming up with all sorts of ideas, it was about finding one idea, and polishing it to the best of my capablities.</p>
+                            <img src="images/brightSky-web-home.png" alt="">
                         </div>
                     </div>
                     <div class="topic">
@@ -40,7 +40,7 @@
                     <div class="opacity-fltr"></div>
                     <div class="overlay">
                         <h4>Brainstorming</h4>
-                        <p>I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
+                        <p>Being pressured for time in a fast paced world, I was forced to think quickly and effectively for this design. Rather than coming up with all sorts of ideas, it was about finding one idea, and polishing it to the best of my capablities.</p>
                     </div>
                 </div>
             </section>
@@ -51,7 +51,7 @@
                         <h3>Shopping</h3>
                         <img src="images/apparel.png" alt="">
                     </div>
-                    <div class="vizro-home">
+                    <div class="brightSky-home">
                         <h3>Home Page</h3>
                         <img src="images/vizro-home.png" alt="">
                     </div>
