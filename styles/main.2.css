@@ -561,7 +561,7 @@ footer .socials {
     margin-bottom: 20px;
 }
 
-.projects button {
+.projects button, .prototype-btn {
     max-width: 264px;
     padding: 15px 30px;
     border: solid #c5d1d9 2px;
@@ -706,8 +706,8 @@ footer .socials {
 
 .artifact .desktop-display .overlay {
     width: 90%;
+    padding: 20px;
     max-width: 450px;
-    height: 50%;
     border-radius: 0px 750px 750px 0px;
     background-color: #64798c;
     position: absolute;
@@ -724,11 +724,9 @@ footer .socials {
     font-weight: 700;
     padding-bottom: 20px;
     padding-right: 35px;
-    padding-left: 20px;
 }
 
 .artifact .overlay p {
-    padding-left: 20px;
     padding-right: 30px;
 }
 
@@ -761,9 +759,13 @@ footer .socials {
     max-width: 1000px;
 }
 
-.artifact .artifact-all {
+.artifact .artifact-all-pages {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.artifact .artifact-all-pages img {
+    margin-bottom: 50px;
 }
 
 @media (min-width: 769px) {
@@ -794,9 +796,13 @@ footer .socials {
         background-image: url(../images/comp-analysis.jpg);
     }
 
-    .artifact .results .content {
+    .artifact .results .content-mobile {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .artifact .desktop-display .inactive {
+        display: none;
     }
 }
 
