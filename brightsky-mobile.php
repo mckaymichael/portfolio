@@ -6,7 +6,7 @@
         <main class="artifact">
             <section class="title-sec">
                 <h1 class="nickainley-font">BrightSky Mobile UX Mockup</h1>
-                <img class="brightsky-logo" src="images/brightsky-logo.png" alt="">
+                <img class="brightsky-logo" src="images/brightsky-logo.png" alt="Brightsky logo">
             </section>
             <section class="topics-sec">
                 <div class="topics">
@@ -23,7 +23,7 @@
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Competitive analysis was short for this one. I may not have designed this mockup with the intent to out-do my competitors; however, I was able to find plenty of inspiration from them and it helped shorten the development time.</p>
-                            <img src="images/brightsky-mobile-competitor.jpg" alt="">
+                            <img src="images/brightsky-mobile-competitor.jpg" alt="competitor analysis sheet">
                         </div>
                     </div>
                     <div class="topic" data-desktop-id="wrk-brkdwn-structure">
@@ -38,7 +38,7 @@
                         <p>Creating assets for the app.</p>
                         <div class="mobile-display">
                             <p class="paragraph">I made this mockup as if I was just taking the desktop version and squeezing it down to a mobile display.</p>
-                            <img src="images/brightsky-mobile-lofi-wireframes.jpg" alt="">
+                            <img src="images/brightsky-mobile-lofi-wireframes.jpg" alt="brightsky low fidelity wireframes">
                         </div>
                     </div>
                 </div>
@@ -69,16 +69,16 @@
                 <div class="content content-mobile">
                     <div>
                         <h3>Constellation Page</h3>
-                        <img src="images/brightsky-mobile-subscribe-page.jpg" alt="">
+                        <img src="images/brightsky-mobile-subscribe-page.jpg" alt="brightsky mobile subscription page">
                     </div>
                     <div>
                         <h3>Home Page</h3>
-                        <img src="images/brightsky-mobile-home-page.jpg" alt="">
+                        <img src="images/brightsky-mobile-home-page.jpg" alt="brightsky mobile home page">
                     </div>
                 </div>
             </section>
             <section class="artifact-all-pages">
-                <img src="images/brightsky-mobile-pages.png" alt="">
+                <img src="images/brightsky-mobile-pages.png" alt="all the high fidelity wireframes for brightsky mobile">
                 <button class="prototype-btn"><a href="https://www.figma.com/proto/nUHyOzlR6Td5DMoVYsydT7/BrightSky-Hi-Fi-Wireframes?node-id=0%3A1&viewport=295%2C277%2C0.16&scaling=scale-down&starting-point-node-id=7%3A504" target="_blank">Visit the Prototype</a></button>
             </section>
         </main>

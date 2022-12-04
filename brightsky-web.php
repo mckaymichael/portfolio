@@ -6,7 +6,7 @@
         <main class="artifact">
             <section class="title-sec">
                 <h1 class="nickainley-font">BrightSky Desktop UX Mockup</h1>
-                <img class="brightsky-logo" src="images/brightsky-logo.png" alt="">
+                <img class="brightsky-logo" src="images/brightsky-logo.png" alt="brightsky logo">
             </section>
             <section class="topics-sec">
                 <div class="topics">
@@ -23,7 +23,7 @@
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Competitive analysis was short for this one. I may not have designed this mockup with the intent to out-do my competitors; however, I was able to find plenty of inspiration from them and it helped shorten the development time.</p>
-                            <img src="images/brightsky-web-competitor.jpg" alt="">
+                            <img src="images/brightsky-web-competitor.jpg" alt="brightsky competitor analysis sheet">
                         </div>
                     </div>
                     <div class="topic" data-desktop-id="wrk-brkdwn-structure">
@@ -38,7 +38,7 @@
                         <p>Creating assets for the app.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Mockups take time and patience. Many times, I felt tempted to use pre-built layouts, but as someone who aspires to learn, I felt even more compelled to create this project from scratch and learn the software properly.</p>
-                            <img src="images/brightsky-web-lofi-wireframes.jpg" alt="">
+                            <img src="images/brightsky-web-lofi-wireframes.jpg" alt="brightsky desktop low fidelity wireframes">
                         </div>
                     </div>
                 </div>
@@ -69,16 +69,16 @@
                 <div class="content">
                     <div>
                         <h3>Constellation Page</h3>
-                        <img src="images/brightsky-constellation-page.jpg" alt="">
+                        <img src="images/brightsky-constellation-page.jpg" alt="brightsky desktop constellations page">
                     </div>
                     <div>
                         <h3>Home Page</h3>
-                        <img src="images/brightsky-home-page.png" alt="">
+                        <img src="images/brightsky-home-page.png" alt="brightsky desktop high fidelity home page">
                     </div>
                 </div>
             </section>
             <section class="artifact-all-pages">
-                <img src="images/brightsky-pages.png" alt="">
+                <img src="images/brightsky-pages.png" alt="all high fidelity brightsky desktop pages">
                 <button class="prototype-btn"><a href="https://xd.adobe.com/view/22d98f04-3075-462b-a5c7-e27db30b3b32-778a/" target="_blank">Visit the Prototype</a></button>
             </section>
         </main>
