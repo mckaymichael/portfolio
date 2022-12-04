@@ -20,7 +20,7 @@
                         <h3>JavaScript</h3>
                         <div class="image-container">
                             <a href="#">
-                                <img src="images/plant.jpg" alt="">
+                                <img src="images/js-website-home-page.jpg" alt="javascript website home page">
                             </a>
                         </div>
                         <div class="chip-container">
@@ -36,7 +36,7 @@
                         <h3>Vizro Records</h3>
                         <div class="image-container">
                             <a href="vizro.php">
-                                <img src="images/plant.jpg" alt="">
+                                <img src="images/vizro-home.png" alt="vizro mobile home page">
                             </a>
                         </div> 
                         <div class="chip-container">

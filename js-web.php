@@ -6,7 +6,7 @@
         <main class="artifact">
             <section class="title-sec">
                 <h1 class="nickainley-font">My JavaScript Website</h1>
-                <img class="brightsky-logo" src="images/js-website-welcome.jpg" alt="">
+                <img src="images/js-website-welcome.jpg" alt="javascript website home page snapshot of h1 tag saying Welcome to my website. I spent way too much time on this.">
             </section>
             <section class="topics-sec">
                 <div class="topics">
@@ -67,11 +67,11 @@
                 <div class="content content-mobile">
                     <div>
                         <h3>Variables Section</h3>
-                        <img src="images/js-website-slider-section.jpg" alt="">
+                        <img src="images/js-website-slider-section.jpg" alt="javascript website slider section snapshot">
                     </div>
                     <div>
                         <h3>Home Page</h3>
-                        <img src="images/js-website-home-page.jpg" alt="">
+                        <img src="images/js-website-home-page.jpg" alt="javascript website home page snapshot">
                     </div>
                 </div>
             </section>

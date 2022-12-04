@@ -5,7 +5,7 @@
                 <?php require('images/logo.svg')?>
             </div>
             <div class="contact-section">
-                <div class="content">
+                <div class="contact-content">
                     <h2 class="nickainley-font">Let's get to business!</h2>
                     <div class="email-input">
                         <input type="text" placeholder="Enter email address">
