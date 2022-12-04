@@ -11,7 +11,7 @@
             <section class="topics-sec">
                 <div class="topics">
                     <h2 class="nickainley-font">The Steps Before The Results</h2>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="brainstorming">
                         <h3>Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
@@ -19,7 +19,7 @@
                             <img src="images/vizro-style-tile.png" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="comp-analysis">
                         <h3>Competitive Analysis</h3>
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
@@ -27,7 +27,7 @@
                             <img src="images/vizro-competitor.jpg" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="wrk-brkdwn-structure">
                         <h3>Work Breakdown Structure</h3>
                         <p>Deciding on how much efffort the process will take.</p>
                         <div class="mobile-display">
@@ -35,7 +35,7 @@
                             <img src="images/vizro-wbs-sheet.jpg" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="mockups-content">
                         <h3>Mockups & Content</h3>
                         <p>Creating assets for the app.</p>
                         <div class="mobile-display">
@@ -47,19 +47,19 @@
                 <div class="desktop-display">
                     <div class="opacity-fltr"></div>
                     <div class="overlay">
-                        <div id="brainstorming" class="active">
+                        <div id="brainstorming" class="active overlay-content">
                             <h4>Brainstorming</h4>
                             <p>I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
                         </div>
-                        <div id="comp-analysis" class="inactive">
+                        <div id="comp-analysis" class="inactive overlay-content">
                             <h4>Competitve Analysis</h4>
                             <p>We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application.</p>
                         </div>
-                        <div id="wrk-brkdwn-structure" class="inactive">
+                        <div id="wrk-brkdwn-structure" class="inactive overlay-content">
                             <h4>Work Breakdown Structure</h4>
                             <p>Although I was not in charge of this portion of the project, the work breakdown structure was a big help to identifying who is in charge of what tasks. It helped give a scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
                         </div>
-                        <div id="mockups-content" class="inactive">
+                        <div id="mockups-content" class="inactive overlay-content">
                             <h4>Mockups &amp; Content</h4>
                             <p>Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in moind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
                         </div>
@@ -87,5 +87,7 @@
         </main>
     </div>
     <?php require('globals/footer.php');?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>

@@ -11,55 +11,51 @@
             <section class="topics-sec">
                 <div class="topics">
                     <h2 class="nickainley-font">The Steps Before The Results</h2>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="brainstorming">
                         <h3>Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
                             <p class="paragraph">This website was initally a demonstration of my skills as a web developer. So rather than putting all my focus into the layout, I was more concerned about demonstrating my knowledge.</p>
-                            <img src="images/vizro-style-tile.png" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="comp-analysis">
                         <h3>Competitive Analysis</h3>
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Since this was just a research project, there was no competitive analysis. Everything here is strictly my own knowledge that I had learned about JavaScript up until that point in time.</p>
-                            <img src="images/comp-analysis.jpg" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="wrk-brkdwn-structure">
                         <h3>Work Breakdown Structure</h3>
                         <p>Deciding on how much efffort the process will take.</p>
                         <div class="mobile-display">
                             <p class="paragraph">This website was a combination of three different coding projects. That was a good enough reason to right down everything that needed to be done in a timely manner. Having my work broken down and simplified played a major role in the completion of this project.</p>
-                            <img src="images/comp-analysis.jpg" alt="">
                         </div>
                     </div>
-                    <div class="topic">
+                    <div class="topic" data-desktop-id="mockups-content">
                         <h3>The Final Product</h3>
                         <p>An artifact that shows me how far I've come.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Although it's a bit novice, I found this as a major learning experience for my coding career. In fact, you could consider my portfolio as a second attempt at a website. So when I see this project and compare it to my portfolio, I see that I've come a long way.</p>
-                            <img src="images/comp-analysis.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="desktop-display">
                     <div class="opacity-fltr"></div>
                     <div class="overlay">
-                        <div id="brainstorming" class="active">
+                        <div id="brainstorming" class="active overlay-content">
                             <h4>Brainstorming</h4>
                             <p>This website was initally a demonstration of my skills as a web developer. So rather than putting all my focus into the layout, I was more concerned about demonstrating my knowledge.</p>
                         </div>
-                        <div id="comp-analysis" class="inactive">
+                        <div id="comp-analysis" class="inactive overlay-content">
                             <h4>Competitve Analysis</h4>
                             <p>Since this was just a research project, there was no competitive analysis. Everything here is strictly my own knowledge that I had learned about JavaScript up until that point in time.</p>
                         </div>
-                        <div id="wrk-brkdwn-structure" class="inactive">
+                        <div id="wrk-brkdwn-structure" class="inactive overlay-content">
                             <h4>Work Breakdown Structure</h4>
                             <p>This website was a combination of three different coding projects. That was a good enough reason to right down everything that needed to be done in a timely manner. Having my work broken down and simplified played a major role in the completion of this project.</p>
                         </div>
-                        <div id="mockups-content" class="inactive">
+                        <div id="mockups-content" class="inactive overlay-content">
                             <h4>The Final Product</h4>
                             <p>Although it's a bit novice, I found this as a major learning experience for my coding career. In fact, you could consider my portfolio as a second attempt at a website. So when I see this project and compare it to my portfolio, I see that I've come a long way.</p>
                         </div>
@@ -85,5 +81,7 @@
         </main>
     </div>
     <?php require('globals/footer.php');?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>
