@@ -32,11 +32,11 @@
         </div>
         <div class="line-break"></div>
         <ul class="socials">
-            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/trail_mix_mike/" target="_blank" ><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://github.com/mckaymichael" target="_blank" ><i class="fa-brands fa-github"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-dev"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/michael-mckay-76179b1a8/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li>
         </ul>
         <p class="copyright">&copy;Michael McKay 2022</p>
     </div>
