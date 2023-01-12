@@ -61,6 +61,18 @@ p {
 }
 
 
+.bg-color {
+    background-color: #ffffff;
+}
+
+.secondary-color {
+    background-color: #000;
+}
+
+.complimentary-color {
+    
+}
+
 /* Header Nav, starting from mobile */
 
 header {
