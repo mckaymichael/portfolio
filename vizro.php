@@ -11,32 +11,32 @@
             <section class="topics-sec">
                 <div class="topics">
                     <h2 class="nickainley-font">The Steps Before The Results</h2>
-                    <div class="topic" data-desktop-id="brainstorming">
-                        <h3>Brainstorming</h3>
+                    <div class="topic border-purp" data-desktop-id="brainstorming">
+                        <h3 class="text-purp">Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
                             <p class="paragraph"> I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
                             <img src="images/vizro-style-tile.png" alt="style sheet for vizro">
                         </div>
                     </div>
-                    <div class="topic" data-desktop-id="comp-analysis">
-                        <h3>Competitive Analysis</h3>
+                    <div class="topic border-purp" data-desktop-id="comp-analysis">
+                        <h3 class="text-purp">Competitive Analysis</h3>
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
                             <p class="paragraph">We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application. Below is one of our competitors websites: Westwood Recordings.</p>
                             <img src="images/vizro-competitor.jpg" alt="competitor analysis sheet for vizro">
                         </div>
                     </div>
-                    <div class="topic" data-desktop-id="wrk-brkdwn-structure">
-                        <h3>Work Breakdown Structure</h3>
+                    <div class="topic border-purp" data-desktop-id="wrk-brkdwn-structure">
+                        <h3 class="text-purp">Work Breakdown Structure</h3>
                         <p>Deciding on how much efffort the process will take.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Although I was not in charge of this portion of the project, the work breakdown structure was a big help to identifying who is in charge of what tasks. It helped give a scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
                             <img src="images/vizro-wbs-sheet.jpg" alt="work breakdown structure sheet for vizro">
                         </div>
                     </div>
-                    <div class="topic" data-desktop-id="mockups-content">
-                        <h3>Mockups & Content</h3>
+                    <div class="topic border-purp" data-desktop-id="mockups-content">
+                        <h3 class="text-purp">Mockups & Content</h3>
                         <p>Creating assets for the app.</p>
                         <div class="mobile-display">
                             <p class="paragraph">Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in moind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="desktop-display">
                     <div class="opacity-fltr"></div>
-                    <div class="overlay">
+                    <div class="overlay bg-purp">
                         <div id="brainstorming" class="active overlay-content">
                             <h4>Brainstorming</h4>
                             <p>I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
@@ -70,11 +70,11 @@
                 <h2 class="nickainley-font">The Results</h2>
                 <div class="content content-mobile">
                     <div>
-                        <h3>Shopping</h3>
+                        <h3 class="text-purp">Shopping</h3>
                         <img src="images/apparel.png" alt="shopping page vizro">
                     </div>
                     <div>
-                        <h3>Home Page</h3>
+                        <h3 class="text-purp">Home Page</h3>
                         <img src="images/vizro-home.png" alt="vizro home page">
                     </div>
                 </div>

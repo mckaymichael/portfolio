@@ -17,33 +17,33 @@
                 <h2 class="nickainley-font">Featured Projects</h2>
                 <div class="feature-blocks">
                     <div class="content">
-                        <h3>JavaScript</h3>
+                        <h3 class="bg-white">JavaScript</h3>
                         <div class="image-container">
                             <a href="#">
                                 <img src="images/js-website-home-page.jpg" alt="javascript website home page">
                             </a>
                         </div>
                         <div class="chip-container">
-                            <div class="chip">
+                            <div class="chip border-purp">
                                 <h4>Solo</h4>
                             </div>
-                            <div class="chip">
+                            <div class="chip border-purp">
                                 <h4>Coding</h4>
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <h3>Vizro Records</h3>
+                        <h3 class="bg-white">Vizro Records</h3>
                         <div class="image-container">
                             <a href="vizro.php">
                                 <img src="images/vizro-home.png" alt="vizro mobile home page">
                             </a>
                         </div> 
                         <div class="chip-container">
-                            <div class="chip">
+                            <div class="chip border-purp">
                                 <h4>Group Project</h4>
                             </div> 
-                            <div class="chip">
+                            <div class="chip border-purp">
                                 <h4>Wireframing</h4>
                             </div>               
                         </div>

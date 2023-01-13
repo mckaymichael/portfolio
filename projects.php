@@ -9,7 +9,7 @@
                 <div class="content">
                     <h2 class="nickainley-font">Vizro</h2>
                     <p class="text">Vizro was a group project and is a made up record label company that&apos;s purpose was to bring to light unknown, yet talented artists. Its aim is to be a mobile application.</p>
-                    <button> <a href="vizro.php">See More</a></button>
+                    <button class="border-purp"><a href="vizro.php">See More</a></button>
                 </div>
             </section>
         </main>

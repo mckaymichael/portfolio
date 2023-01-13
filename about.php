@@ -6,9 +6,9 @@
         <main>
             <section class="banner-sec">
                 <div class="images-of-me">
-                    <img class="portrait" src="images/me1.jpg" alt="front facing camera of man's face">
-                    <img class="portrait" src="images/me2.jpg" alt="front facing camera of man's face">
-                    <img class="portrait" src="images/me3.jpg" alt="front facing camera of man's face">
+                    <img class="portrait border-purp" src="images/me1.jpg" alt="front facing camera of man's face">
+                    <img class="portrait border-purp" src="images/me2.jpg" alt="front facing camera of man's face">
+                    <img class="portrait border-purp" src="images/me3.jpg" alt="front facing camera of man's face">
                 </div>
                 <div class="content">
                     <h1 class="nickainley-font">About Me</h1>
@@ -18,11 +18,11 @@
             <section class="core-values-sec">
                 <h2 class="nickainley-font">Core Values</h2>
                 <div class="values">
-                    <button>Respect</button>
-                    <button>Trust</button>
-                    <button>Openness</button>
-                    <button>Growth</button>
-                    <button>Enthusiasm</button>
+                    <button class="border-purp">Respect</button>
+                    <button class="border-purp">Trust</button>
+                    <button class="border-purp">Openness</button>
+                    <button class="border-purp">Growth</button>
+                    <button class="border-purp">Enthusiasm</button>
                 </div>
             </section>
             <section class="mission-sec">

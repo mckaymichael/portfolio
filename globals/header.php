@@ -1,4 +1,4 @@
-<header>
+<header class="bg-white">
 	<div class="logo-container">
 		<a href="index.php">
 			<?php require('images/logo.svg')?>
