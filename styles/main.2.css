@@ -90,6 +90,23 @@ p {
     border: solid 2px #a041ff;
 }
 
+.button {
+    font-weight: 700;
+    justify-content: center;
+    transition: all 0.33s;
+    cursor: pointer;display: flex;
+}
+
+.button a {
+    padding: 15px 30px;
+}
+
+@media (min-width: 769px) {
+    .button:hover {
+        box-shadow: inset 0 0 10px #a041ff;
+    }
+}
+
 
 /* Header Nav, starting from mobile */
 
@@ -125,8 +142,10 @@ header .logo {
     padding: 5px 10px;
 }
 
+
 .header-nav i {
     margin-right: 5px;
+    transition: 0.2s;
 }
 
 .header-nav span {
@@ -147,8 +166,14 @@ header .logo {
         .header-nav span {
             display: inline-block;
         }
+
+        .header-nav li a:hover i, .footer-nav li a:hover i {
+            color: #a041ff;
+        }
         
     }
+
+
 
 /* Footer Nav, starting from mobile */
 footer {
@@ -219,12 +244,17 @@ footer .email-input {
     height: 200px;
 }
 
+footer .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
 footer .contact-info * {
     margin: 7px 0;
 }
 
 footer .contact-info a {
-    display: block;
+    display: inline-block;
 }
 
 footer h3 {
@@ -249,6 +279,7 @@ footer nav {
 
 .footer-nav a i {
     margin-right: 5px;
+    transition: 0.2s;
 }
 
 
@@ -269,6 +300,7 @@ footer .socials {
 
 .copyright {
     padding-bottom: 10px;
+    font-size: 12px;
 }
 
 @media (min-width: 769px) {
@@ -620,19 +652,6 @@ footer .socials {
     margin-bottom: 20px;
 }
 
-.projects button, .prototype-btn {
-    max-width: 264px;
-    padding: 15px 30px;
-    font-weight: 700;
-    justify-content: center;
-    transition: all 0.33s;
-    cursor: pointer;
-}
-
-.projects button:hover {
-    box-shadow: inset 0 0 10px #a041ff;
-}
-
 .projects .padding-bottom {
     padding-bottom: 50px;
 }
@@ -739,7 +758,7 @@ footer .socials {
 }
 
 .artifact .topic:hover {
-    box-shadow: inset 0 0 10px #a041ff;
+    cursor: default;
 }
 
 .artifact .mobile-display img {
@@ -842,6 +861,10 @@ footer .socials {
     
     .artifact .topics {
         flex-basis: 40%;
+    }
+
+    .artifact .topic:hover {
+        cursor: pointer;
     }
 
     .artifact .desktop-display {

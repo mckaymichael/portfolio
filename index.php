@@ -17,18 +17,18 @@
                 <h2 class="nickainley-font">Featured Projects</h2>
                 <div class="feature-blocks">
                     <div class="content">
-                        <h3 class="bg-white">JavaScript</h3>
+                        <h3 class="bg-white">New Feature</h3>
                         <div class="image-container">
                             <a href="#">
-                                <img src="images/js-website-home-page.jpg" alt="javascript website home page">
+                                <img src="" alt="image here">
                             </a>
                         </div>
                         <div class="chip-container">
                             <div class="chip border-purp">
-                                <h4>Solo</h4>
+                                <h4>chip</h4>
                             </div>
                             <div class="chip border-purp">
-                                <h4>Coding</h4>
+                                <h4>chip</h4>
                             </div>
                         </div>
                     </div>
