@@ -17,18 +17,21 @@
                 <h2 class="nickainley-font">Featured Projects</h2>
                 <div class="feature-blocks">
                     <div class="content">
-                        <h3 class="bg-white">New Feature</h3>
+                        <h3 class="bg-white">Notes App</h3>
                         <div class="image-container">
-                            <a href="#">
-                                <img src="" alt="image here">
+                            <a href="http://crud.michaelkmckay.com/public/">
+                                <img src="images/notes.png" alt="image here">
                             </a>
                         </div>
                         <div class="chip-container">
                             <div class="chip border-purp">
-                                <h4>chip</h4>
+                                <h4>Coding</h4>
                             </div>
                             <div class="chip border-purp">
-                                <h4>chip</h4>
+                                <h4>SQL</h4>
+                            </div>
+                            <div class="chip border-purp">
+                                <h4>PhP & Databases</h4>
                             </div>
                         </div>
                     </div>
@@ -41,10 +44,13 @@
                         </div> 
                         <div class="chip-container">
                             <div class="chip border-purp">
-                                <h4>Group Project</h4>
+                                <h4>Team Project</h4>
                             </div> 
                             <div class="chip border-purp">
-                                <h4>Wireframing</h4>
+                                <h4>UX/UI</h4>
+                            </div>               
+                            <div class="chip border-purp">
+                                <h4>Design</h4>
                             </div>               
                         </div>
                     </div>
