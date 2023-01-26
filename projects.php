@@ -4,13 +4,62 @@
     <?php require('globals/header.php');?>
     <div class="theme-wrapper">
         <main class="projects">
-            <section class="vizro flex flex-reverse">
-                <div class="proj-img-display"></div>
-                <div class="content">
-                    <h2 class="nickainley-font">Vizro</h2>
-                    <p class="text">Vizro was a group project and is a made up record label company that&apos;s purpose was to bring to light unknown, yet talented artists. Its aim is to be a mobile application.</p>
-                    <button class="border-purp button"><a href="vizro.php">See More</a></button>
+            <section class="flex">
+                <div class="proj-card">
+                    <div class="card-overlay"></div>
+                    <div class="img-container">
+                        <a href="vizro.php">
+                            <img src="images/apparel.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h2 class="nickainley-font">Vizro</h2>
+                        <p class="text">A group UX/UI project for a record label company app.</p>
+                        <button class="border-purp button"><a href="vizro.php">See More</a></button>
+                    </div>
                 </div>
+                <div class="proj-card">
+                    <div class="card-overlay"></div>
+                    <div class="img-container">
+                        <a href="vizro.php">
+                            <img src="images/notes.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h2 class="nickainley-font">Note Taking Application</h2>
+                        <p class="text">A CRUD application that lets you login in and create notes.</p>
+                        <div class="button-sort">
+                            <button class="border-purp button"><a href="#">Test The App</a></button>
+                            <button class="border-purp button"><a href="#">View Git</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="img-container">
+                        <a href="vizro.php">
+                            <img src="images/apparel.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h2 class="nickainley-font">Vizro</h2>
+                        <p class="text">A group UX/UI project for a record label company app.</p>
+                        <button class="border-purp button"><a href="vizro.php">See More</a></button>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="img-container">
+                        <a href="vizro.php">
+                            <img src="images/apparel.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h2 class="nickainley-font">Vizro</h2>
+                        <p class="text">A group UX/UI project for a record label company app.</p>
+                        <button class="border-purp button"><a href="vizro.php">See More</a></button>
+                    </div>
+                </div>
+                <div class="push-flex-left"></div>
+                <div class="push-flex-left"></div>
             </section>
         </main>
     </div>

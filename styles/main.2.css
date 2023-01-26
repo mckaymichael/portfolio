@@ -605,7 +605,7 @@ footer .socials {
 */
 
 .projects section {
-    padding: 0 20px;
+    padding: 50px 20px 0 20px;
 }
 
 .projects .flex {
@@ -652,55 +652,110 @@ footer .socials {
     margin-bottom: 20px;
 }
 
+.proj-card {
+    position: relative;
+    box-shadow: #c59fea 2px 2px 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 440px;
+    margin: 40px;
+    z-index: 0;
+}
+
+.proj-card .img-container {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.proj-card .img-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.proj-card .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+}
+
+.proj-card .button-sort {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proj-card .button-sort button {
+    flex-basis: 50%;
+}
+
+.proj-card button {
+    align-self: center;
+    width: 100%;
+    margin: 15px;
+}
+
 .projects .padding-bottom {
     padding-bottom: 50px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 480px) {
+    .proj-card {
+        width: 440px;
+        min-width: 440px;
+    }
+}
 
+@media (min-width: 1080px) {
     .projects .flex {
         flex-direction: row;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
-    .projects .flex-reverse {
-        flex-direction: row-reverse;
+    .proj-card {
+        height: 440px;
+    }
+    
+    .proj-card .content {
+        position: absolute;
+        transition: 0.33s ease-out;
+        bottom: -100%;
     }
 
-    .projects h1, .projects h2 {
-        font-size: 2.7vw;
+    .proj-card:hover .content {
+        bottom: 0%;
     }
 
-    .projects .padding-bottom {
-        padding-bottom: 0px;
+    .proj-card .card-overlay {
+        background-color: #c59fea;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        transition: all 0.33s ease-in;
+    }
+    
+    .proj-card:hover .card-overlay {
+        opacity: 0.7;
     }
 
-    .projects .brightsky-mob .proj-img-display {
-        background-image: url(../images/brightsky-mobile-m.png);
-    }
-    .projects .vizro .proj-img-display {
-        background-image: url(../images/vizro-m.png);
-    }
-    .projects .js-web .proj-img-display {
-        background-image: url(../images/js-website-m.png);
-    }
-    .projects .brightsky-web .proj-img-display {
-        background-image: url(../images/brightsky-web-m.png);
-    }
-}
-@media (min-width: 992px) {
-    .projects .brightsky-mob .proj-img-display{
-        background-image: url(../images/brightsky-mobile-lg.png);
-    }
-    .projects .vizro .proj-img-display{
-        background-image: url(../images/vizro-lg.png);
-    }
-    .projects .js-web .proj-img-display{
-        background-image: url(../images/js-website-lg.png);
-
-    }
-    .projects .brightsky-web .proj-img-display{
-        background-image: url(../images/brightsky-web-lg.png);
+    .projects .push-flex-left {
+        width: 440px;
+        min-width: 440px;
+        margin: 40px;
     }
 }
 
