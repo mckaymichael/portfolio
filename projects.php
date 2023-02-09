@@ -29,8 +29,8 @@
                         <h2 class="nickainley-font">Note Taking Application</h2>
                         <p class="text">A CRUD application that lets you login in and create notes.</p>
                         <div class="button-sort">
-                            <button class="border-purp button"><a href="http://crud.michaelkmckay.com/public/">Test The App</a></button>
-                            <button class="border-purp button"><a href="#">View Git</a></button>
+                            <button class="border-purp button"><a href="http://crud.michaelkmckay.com/public/" target="_blank">Test The App</a></button>
+                            <button class="border-purp button"><a href="https://github.com/mckaymichael/note-taking-application" target="_blank">View Git</a></button>
                         </div>
                     </div>
                 </div>
