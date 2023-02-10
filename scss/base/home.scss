@@ -1,0 +1,6 @@
+@use "variables" as vars;
+
+.home-banner {
+    display: flex;
+    color: vars.$red;
+}

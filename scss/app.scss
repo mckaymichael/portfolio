@@ -1,0 +1,8 @@
+@use "base/variables" as vars;
+
+
+@forward "base/home";
+
+body {
+    background: vars.$red;
+}
