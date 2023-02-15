@@ -1,1 +1,22 @@
-.home-banner{display:flex;color:red}body{background:red}/*# sourceMappingURL=app.css.map */
+.home-banner {
+  display: flex;
+}
+
+body {
+  background-color: #ffffff;
+  color: black;
+  overflow-x: hidden;
+  height: 100%;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.button {
+  font-weight: 700;
+  justify-content: center;
+  transition: all 0.33s;
+  cursor: pointer;
+  display: flex;
+}
+
+/*# sourceMappingURL=app.css.map */
