@@ -94,8 +94,7 @@ p {
     font-weight: 700;
     justify-content: center;
     transition: all 0.33s;
-    cursor: pointer;
-    display: flex;
+    cursor: pointer;display: flex;
 }
 
 .button a {

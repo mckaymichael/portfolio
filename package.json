@@ -4,7 +4,7 @@
   "description": "my portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass:watch": "node_modules/.bin/sass scss/app.scss dist/app.css --watch --style=expanded"
+    "sass:watch": "node_modules/.bin/sass scss/app.scss dist/app.css --watch --style=compressed"
   },
   "repository": {
     "type": "git",
