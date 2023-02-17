@@ -94,7 +94,8 @@ p {
     font-weight: 700;
     justify-content: center;
     transition: all 0.33s;
-    cursor: pointer;display: flex;
+    cursor: pointer;
+    display: flex;
 }
 
 .button a {
@@ -172,8 +173,6 @@ header .logo {
         }
         
     }
-
-
 
 /* Footer Nav, starting from mobile */
 footer {
@@ -615,30 +614,6 @@ footer .socials {
     align-items: center;
 }
 
-.projects .proj-img-display {
-    height: 65vw;
-    width: 100%;
-    min-height: 280px;
-    max-width: 1300px;
-    background: center / contain no-repeat;
-}
-
-.projects .brightsky-mob .proj-img-display{
-    background-image: url(../images/brightsky-mobile-s.png);
-}
-.projects .vizro .proj-img-display {
-    background-image: url(../images/vizro-s.png);
-
-}
-.projects .js-web .proj-img-display {
-    background-image: url(../images/js-website-s.png);
-
-}
-.projects .brightsky-web .proj-img-display {
-    background-image: url(../images/brightsky-web-s.png);
-
-}
-
 .projects .content {
     max-width: 500px;
 }
@@ -940,10 +915,3 @@ footer .socials {
         display: none;
     }
 }
-
-/* Artifacts CSS for Specific Pages */
-
-    /* BrightSky Web Layout */
-    .brightsky-logo {
-        width: 500px;
-    }
