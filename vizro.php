@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="desktop-display">
+                <div class="desktop-display vizro-overlay-bg">
                     <div class="opacity-fltr"></div>
                     <div class="overlay bg-purp flex">
                         <div id="brainstorming" class="active overlay-content">
@@ -61,7 +61,7 @@
                         </div>
                         <div id="mockups-content" class="inactive overlay-content">
                             <h4 class="bold">Mockups &amp; Content</h4>
-                            <p>Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in moind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
+                            <p>Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in mind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
                         </div>
                     </div>
                 </div>

@@ -20,10 +20,6 @@ input, textarea {
   font-family: "DM Sans", sans-serif;
 }
 
-.nickainley-font {
-  font-family: "Nickainley", sans-serif;
-}
-
 main {
   width: 100%;
   height: 100%;
@@ -49,11 +45,9 @@ a, button {
 }
 
 .button {
-  font-weight: 700;
   justify-content: center;
   transition: all 0.33s;
   cursor: pointer;
-  display: flex;
 }
 .button a {
   padding: 15px 30px;
@@ -61,6 +55,10 @@ a, button {
 
 p {
   line-height: 22px;
+}
+
+.nickainley-font {
+  font-family: "Nickainley", sans-serif;
 }
 
 .border-purp {
@@ -83,6 +81,18 @@ p {
   background-color: #a041ff;
 }
 
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 @media (min-width: 769px) {
   .button:hover {
     box-shadow: inset 0 0 10px #a041ff;
@@ -93,13 +103,9 @@ header {
   height: 50px;
   position: fixed;
   z-index: 1000;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 header .logo-container {
-  display: flex;
-  align-items: center;
   width: 35px;
   max-width: 60px;
   height: auto;
@@ -146,9 +152,7 @@ footer {
 }
 footer .theme-wrap {
   width: 100%;
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   max-width: 1080px;
   margin: 0 auto;
@@ -158,7 +162,6 @@ footer h2 {
   padding-bottom: 15px;
 }
 footer .content {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -170,7 +173,6 @@ footer .logo-container {
 }
 footer .contact-section {
   width: 100%;
-  display: flex;
   flex-direction: column;
   padding-bottom: 50px;
 }
@@ -197,7 +199,6 @@ footer .email-input {
   max-width: 255px;
 }
 footer .contact-info {
-  display: flex;
   flex-direction: column;
 }
 footer .contact-info * {
@@ -206,17 +207,12 @@ footer .contact-info * {
 footer .contact-info a {
   display: inline-block;
 }
-footer h3 {
-  font-weight: 700;
-}
 footer nav {
   width: 100%;
 }
 footer .footer-nav ul {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 }
 footer .footer-nav ul li {
   flex-basis: auto;
@@ -233,7 +229,6 @@ footer .line-break {
 }
 footer .socials {
   margin: 50px auto;
-  display: flex;
   width: 50%;
   max-width: 250px;
   justify-content: space-evenly;
@@ -291,7 +286,6 @@ footer .copyright {
 
 /* Featured Section */
 #featured .feature-blocks {
-  display: flex;
   flex-direction: column;
   width: 100%;
 }
@@ -305,7 +299,6 @@ footer .copyright {
   padding: 0 10px;
 }
 #featured .content h3 {
-  font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
   position: absolute;
@@ -336,7 +329,6 @@ footer .copyright {
   border-radius: inherit;
 }
 #featured .chip-container {
-  display: flex;
   width: calc(100% - 40px);
   margin: 0 20px;
   position: absolute;
@@ -345,8 +337,6 @@ footer .copyright {
   z-index: -1;
 }
 #featured .chip-container .chip {
-  display: flex;
-  align-items: center;
   padding: 10px 15px;
   margin-right: 10px;
 }
@@ -393,13 +383,10 @@ footer .copyright {
 */
 .banner-sec {
   width: 100%;
-  display: flex;
   flex-direction: column;
 }
 .banner-sec .images-of-me {
-  display: flex;
   justify-content: center;
-  align-items: center;
   position: relative;
   padding-top: 50px;
   padding-bottom: 80px;
@@ -424,10 +411,8 @@ footer .copyright {
   width: 33vw;
 }
 .banner-sec .content {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   text-align: center;
   height: calc(100% + 40px);
   padding-top: 50px;
@@ -437,9 +422,7 @@ footer .copyright {
 }
 
 .core-values-sec {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
 }
 .core-values-sec h2 {
@@ -457,7 +440,6 @@ footer .copyright {
   aspect-ratio: 1/1;
   max-width: 264px;
   padding: 0;
-  font-weight: 700;
   justify-content: center;
 }
 @media (min-width: 944px) {
@@ -467,7 +449,6 @@ footer .copyright {
 }
 
 .mission-sec {
-  display: flex;
   text-align: center;
   flex-direction: column;
 }
@@ -504,11 +485,9 @@ footer .copyright {
 .projects section {
   padding: 50px 20px 0 20px;
 }
-.projects .flex {
-  display: flex;
+.projects .proj-card-sec {
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .projects .content {
   max-width: 500px;
@@ -552,14 +531,12 @@ footer .copyright {
 .projects .proj-card .content {
   position: relative;
   width: 100%;
-  display: flex;
   flex-direction: column;
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.8);
   z-index: 3;
 }
 .projects .proj-card .button-sort {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -568,7 +545,7 @@ footer .copyright {
 }
 .projects .proj-card button {
   align-self: center;
-  width: 100%;
+  width: 75%;
   margin: 15px;
 }
 .projects .padding-bottom {
@@ -617,10 +594,8 @@ footer .copyright {
 */
 .artifact .title-sec {
   width: 100%;
-  display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 .artifact .title-sec h1 {
   text-align: center;
@@ -632,7 +607,6 @@ footer .copyright {
   font-size: 2.5rem;
 }
 .artifact .topics-sec {
-  display: flex;
   flex-direction: column;
 }
 .artifact .topics-sec .topics {
@@ -641,12 +615,10 @@ footer .copyright {
 .artifact .topics-sec .topics .topic {
   width: 100%;
   padding: 15px 30px;
-  font-weight: 700;
   justify-content: center;
   transition: all 0.33s;
   cursor: pointer;
   margin: 20px 0;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -678,13 +650,11 @@ footer .copyright {
   top: 0;
   left: 0;
   opacity: 1;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .artifact .desktop-display .overlay h4 {
   font-size: 1.8rem;
-  font-weight: 700;
   padding-bottom: 20px;
   padding-right: 35px;
 }
@@ -698,19 +668,14 @@ footer .copyright {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .artifact .results {
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .artifact .results .content {
   width: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .artifact .results h3 {
   font-size: 1.5rem;
-  font-weight: 700;
   padding: 20px 0;
   text-align: center;
 }
@@ -723,10 +688,8 @@ footer .copyright {
   max-width: 1000px;
 }
 .artifact .artifact-all-pages {
-  display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 .artifact .artifact-all-pages img {
   margin-bottom: 50px;
@@ -759,10 +722,15 @@ footer .copyright {
     flex-basis: 40%;
     height: inherit;
     background: center/cover no-repeat;
-    background-image: url(../images/comp-analysis.jpg);
   }
   .artifact .desktop-display .inactive {
     display: none;
+  }
+  .artifact .vizro-overlay-bg {
+    background-image: url(../images/comp-analysis.jpg);
+  }
+  .artifact .gogro-overlay-bg {
+    background-image: url(../images/gogro/sign-up.png);
   }
 }
 
