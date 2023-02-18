@@ -15,22 +15,22 @@
             </section>
             <section id="featured">
                 <h2 class="nickainley-font">Featured Projects</h2>
-                <div class="feature-blocks">
+                <div class="feature-blocks flex">
                     <div class="content">
-                        <h3 class="bg-white">Notes App</h3>
+                        <h3 class="bg-white bold">Notes App</h3>
                         <div class="image-container">
                             <a href="http://crud.michaelkmckay.com/public/">
                                 <img src="images/notes.png" alt="image here">
                             </a>
                         </div>
-                        <div class="chip-container">
-                            <div class="chip border-purp">
+                        <div class="chip-container flex">
+                            <div class="chip border-purp flex align-center">
                                 <h4>Coding</h4>
                             </div>
-                            <div class="chip border-purp">
+                            <div class="chip border-purp flex align-center">
                                 <h4>SQL</h4>
                             </div>
-                            <div class="chip border-purp">
+                            <div class="chip border-purp flex align-center">
                                 <h4>PhP & Databases</h4>
                             </div>
                         </div>

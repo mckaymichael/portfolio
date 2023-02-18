@@ -3,6 +3,8 @@
 
 @forward "base/home";
 
+// Global Styles 
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,10 +21,6 @@ body {
 input, textarea {
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
-}
-
-.nickainley-font {
-    font-family: 'Nickainley', sans-serif;
 }
 
 main {
@@ -50,11 +48,9 @@ a, button {
 }
 
 .button {
-    font-weight: 700;
     justify-content: center;
     transition: all 0.33s;
     cursor: pointer;
-    display: flex;  
     a {
         padding: 15px 30px;
     } 
@@ -62,6 +58,10 @@ a, button {
 
 p {
     line-height: 22px;
+}
+
+.nickainley-font {
+    font-family: 'Nickainley', sans-serif;
 }
 
 .border-purp {
@@ -84,6 +84,18 @@ p {
     background-color: vars.$purp;
 }
 
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 @media (min-width: 769px) {
     .button:hover {
         box-shadow: inset 0 0 10px #a041ff;
@@ -97,13 +109,8 @@ header {
     height: 50px;
     position: fixed;
     z-index: 1000;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-
     .logo-container {
-        display: flex;
-        align-items: center;
         width: 35px;
         max-width: 60px;
         height: auto;
@@ -118,7 +125,6 @@ header {
 
     .header-nav {
         ul {
-            display: flex;
             justify-content: space-around;
         }
         li {
@@ -155,9 +161,7 @@ footer {
 
     .theme-wrap {
         width: 100%;
-        display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
         max-width: 1080px;
         margin: 0 auto;
@@ -169,7 +173,6 @@ footer {
     }
 
     .content {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
@@ -183,7 +186,6 @@ footer {
 
     .contact-section {
         width: 100%;
-        display: flex;
         flex-direction: column;
         padding-bottom: 50px;
         input, textarea {
@@ -213,8 +215,7 @@ footer {
         max-width: 255px;
     }
 
-    .contact-info {
-        display: flex;
+    .contact-info { 
         flex-direction: column;
         * {
             margin: 7px 0;
@@ -223,26 +224,23 @@ footer {
             display: inline-block;
         }
     }
-    h3 {
-        font-weight: 700;
-    }
     nav {
         width: 100%;
     }
     .footer-nav  {
         ul {
-            display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            align-items: center;
             li {
                 flex-basis: auto;
                 padding: 5px;
             }
         }
-        a i {
+        a {
+            i {
             margin-right: 5px;
             transition: 0.2s;
+            }
         }
     }
     .line-break {
@@ -252,7 +250,6 @@ footer {
     }
     .socials {
         margin: 50px auto;
-        display: flex;
         width: 50%;
         max-width: 250px;
         justify-content: space-evenly;
@@ -320,7 +317,6 @@ footer {
 
 #featured {
     .feature-blocks {
-        display: flex;
         flex-direction: column;
         width: 100%;
     }
@@ -333,7 +329,6 @@ footer {
         margin: 40px 0px;
         padding: 0 10px;
         h3 {
-            font-weight: 700;
             font-size: 1.5rem;
             text-transform: uppercase;
             position: absolute;
@@ -365,7 +360,6 @@ footer {
         }
     }
     .chip-container {
-        display: flex;
         width: calc(100% - 40px);
         margin: 0 20px;
         position: absolute;
@@ -373,8 +367,6 @@ footer {
         transform: translate(0, 90%);
         z-index: -1;
         .chip {
-            display: flex;
-            align-items: center;
             padding: 10px 15px;
             margin-right: 10px;
         }
@@ -429,13 +421,10 @@ footer {
 
 .banner-sec {
     width: 100%;
-    display: flex;
     flex-direction: column;
 
     .images-of-me {
-        display: flex;
         justify-content: center;
-        align-items: center;
         position: relative;
         padding-top: 50px;
         padding-bottom: 80px;
@@ -461,10 +450,8 @@ footer {
     }
 
     .content {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
         text-align: center;
         height: calc(100% + 40px);
         padding-top: 50px;
@@ -476,9 +463,7 @@ footer {
 }
 
 .core-values-sec {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
     h2 {
         font-size: 2rem;
@@ -494,7 +479,6 @@ footer {
             aspect-ratio: 1 / 1;
             max-width: 264px;
             padding: 0;
-            font-weight: 700;
             justify-content: center;
         }
         @media (min-width: 944px) {
@@ -503,7 +487,6 @@ footer {
     }
 }
 .mission-sec {
-    display: flex;
     text-align: center;
     flex-direction: column;
     h2 {
@@ -545,11 +528,9 @@ footer {
     section {
         padding: 50px 20px 0 20px;
     }
-    .flex {
-        display: flex;
+    .proj-card-sec {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: center;  
     }
     .content {
         max-width: 500px;
@@ -590,14 +571,12 @@ footer {
         .content {
             position: relative;
             width: 100%;
-            display: flex;
             flex-direction: column;
             padding: 15px;
             background-color: rgba(255, 255, 255, 0.8);
             z-index: 3;
         }
         .button-sort {
-            display: flex;
             flex-direction: column;
             justify-content: space-around;
             button {
@@ -664,10 +643,8 @@ footer {
 .artifact {
     .title-sec {
         width: 100%;
-        display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
         h1 {
             text-align: center;
             font-size: 4.5rem;
@@ -679,19 +656,16 @@ footer {
         font-size: 2.5rem;
     }
     .topics-sec {
-        display: flex;
         flex-direction: column;
         .topics {
             height: auto;
             .topic {
                 width: 100%;
                 padding: 15px 30px;
-                font-weight: 700;
                 justify-content: center;
                 transition: all 0.33s;
                 cursor: pointer;
                 margin: 20px 0;
-                display: flex;
                 flex-direction: column;
                 justify-content: center;
                 h3 {
@@ -724,12 +698,10 @@ footer {
             top: 0;
             left: 0;
             opacity: 1;
-            display: flex;
             flex-direction: column;
             justify-content: center;
             h4 {
                 font-size: 1.8rem;
-                font-weight: 700;
                 padding-bottom: 20px;
                 padding-right: 35px;
             }
@@ -745,18 +717,13 @@ footer {
         background-color: rgba(255, 255, 255, 0.5);
     }
     .results {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         .content {
             width: 100%;
-            display: flex;
             flex-direction: column;
-            align-items: center;
         }
         h3 {
             font-size: 1.5rem;
-            font-weight: 700;
             padding: 20px 0;
             text-align: center;
         }
@@ -770,10 +737,8 @@ footer {
         }
     }
     .artifact-all-pages {
-        display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
         img {
             margin-bottom: 50px;
         }
