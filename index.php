@@ -23,7 +23,7 @@
                                 <img src="images/notes.png" alt="image here">
                             </a>
                         </div>
-                        <div class="chip-container flex">
+                        <div class="chip-container flex-wrap">
                             <div class="chip border-purp flex align-center">
                                 <h4>Coding</h4>
                             </div>
@@ -36,13 +36,13 @@
                         </div>
                     </div>
                     <div class="content">
-                        <h3 class="bg-white">Vizro Records</h3>
+                        <h3 class="bg-white bold">Vizro Records</h3>
                         <div class="image-container">
                             <a href="vizro.php">
                                 <img src="images/vizro-home.png" alt="vizro mobile home page">
                             </a>
                         </div> 
-                        <div class="chip-container">
+                        <div class="chip-container flex-wrap">
                             <div class="chip border-purp">
                                 <h4>Team Project</h4>
                             </div> 

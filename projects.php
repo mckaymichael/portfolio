@@ -25,7 +25,7 @@
                             <img src="images/notes.png" alt="">
                         </a>
                     </div>
-                    <div class="content">
+                    <div class="content flex align-center">
                         <h2 class="nickainley-font">Note Taking Application</h2>
                         <p class="text">A CRUD application that lets you login in and create notes.</p>
                         <div class="button-sort flex">

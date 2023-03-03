@@ -14,7 +14,7 @@ body {
     color: vars.$black;
     overflow-x: hidden;
     height: 100%;
-    font-size: 16px;
+    font-size: 18px;
     font-family: vars.$bodyFont;
 }
 
@@ -86,6 +86,11 @@ p {
 
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .align-center {
@@ -189,26 +194,6 @@ footer {
         width: 100%;
         flex-direction: column;
         padding-bottom: 50px;
-        input, textarea {
-            background-color: rgba(133, 133, 133, 0.3);
-            border: none;
-            text-decoration: none;
-            padding: 10px;
-            width: 100%;
-        }
-
-        input::placeholder, .contact-section textarea::placeholder {
-            color: #808080;
-            opacity: 0.5;
-        }
-
-        .message-input {
-            max-width: 480px;
-            textarea {
-                width: 100%;
-                height: 200px;
-            }
-        }
     }
 
     .email-input {
@@ -218,6 +203,7 @@ footer {
 
     .contact-info { 
         flex-direction: column;
+        align-items: center;
         * {
             margin: 7px 0;
         }
@@ -229,7 +215,9 @@ footer {
         width: 100%;
     }
     .footer-nav  {
+        justify-content: center;
         ul {
+            width: max-content;
             flex-wrap: wrap;
             justify-content: space-around;
             li {
@@ -241,6 +229,7 @@ footer {
             i {
             margin-right: 5px;
             transition: 0.2s;
+            width: 2rem;
             }
         }
     }
@@ -269,6 +258,7 @@ footer {
         }
         .logo-container {
             width: 30%;
+            max-width: 108px;
         }
         .contact-content {
             flex-direction: column;
@@ -285,7 +275,6 @@ footer {
         ul {
             flex-direction: column;
             align-items: flex-start !important;
-            width: 92px;
         }
     }
 
@@ -327,7 +316,7 @@ footer {
     .content {
         width: 100%;
         position: relative;
-        margin: 40px 0px;
+        margin: 60px 0px;
         padding: 0 10px;
         h3 {
             font-size: 1.5rem;
@@ -371,6 +360,9 @@ footer {
             padding: 10px 15px;
             margin-right: 10px;
         }
+        & :nth-child(2) {
+            display: none;
+        }
     }
 }
 
@@ -397,10 +389,15 @@ footer {
         .feature-blocks {
             flex-direction: row;
             .content {
-                margin: 40px 20px;
+                margin: 60px 20px;
                 height: 25vw;
                 h3 {
                     font-size: 2.7vw;
+                }
+                .chip-container {
+                    & :nth-child(2) {
+                        display: flex;
+                    }
                 }
             }
         }
@@ -501,14 +498,19 @@ footer {
     .banner-sec {
         flex-direction: row;
         justify-content: center;
-        .portrait:nth-child(2) {
-            width: 12vw;
-            max-width: 250px;
-        }
-        
-        .portrait:nth-child(3) {
-            width: 15vw;
-            max-width: 280px;
+        .images-of-me {
+            .portrait {
+                &:nth-child(2) {
+                    width: 12vw;
+                    max-width: 250px;
+                }
+            }
+            .portrait {
+                &:nth-child(3) {
+                    width: 15vw;
+                    max-width: 280px;
+                }
+            }
         }
         .content {
             max-width: 600px;
