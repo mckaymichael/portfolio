@@ -20,7 +20,7 @@
                         <h3 class="bg-white bold">Notes App</h3>
                         <div class="image-container">
                             <a href="http://crud.michaelkmckay.com/public/" target="_blank">
-                                <img src="images/notes.png" alt="image here">
+                                <img src="images/notes.png" alt="Screenshot of the Homepage for a note taking application">
                             </a>
                         </div>
                         <div class="chip-container flex-wrap">
