@@ -19,7 +19,7 @@
                     <div class="content">
                         <h3 class="bg-white bold">Notes App</h3>
                         <div class="image-container">
-                            <a href="http://crud.michaelkmckay.com/public/">
+                            <a href="http://crud.michaelkmckay.com/public/" target="_blank">
                                 <img src="images/notes.png" alt="image here">
                             </a>
                         </div>

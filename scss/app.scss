@@ -152,10 +152,28 @@ header {
 }
 
 // Footer and Header Nav media query
+
 @media (min-width: 769px) {
-    .header-nav li a:hover i, .footer-nav li a:hover i {
-        color: #a041ff;
-    }   
+    .header-nav {
+        a:hover {
+            color: #a041ff;
+            transition: 0.33s;
+            & i {
+                color: #a041ff;
+                transition: 0.33s;
+            }
+        }
+    }
+    footer {
+        a:hover {
+            color: #a041ff;
+            transition: 0.33s;
+            & i {
+                color: #a041ff;
+                transition: 0.33s;
+            }
+        }
+    }
 }
 
 /* Footer Nav, starting from mobile */
@@ -224,12 +242,12 @@ footer {
                 flex-basis: auto;
                 padding: 5px;
             }
-        }
-        a {
-            i {
-            margin-right: 5px;
-            transition: 0.2s;
-            width: 2rem;
+            a {
+                i {
+                margin-right: 5px;
+                transition: 0.2s;
+                width: 2rem;
+                }
             }
         }
     }
@@ -318,13 +336,11 @@ footer {
         position: relative;
         margin: 60px 0px;
         padding: 0 10px;
+        display: flex;
+        flex-direction: column;
         h3 {
             font-size: 1.5rem;
             text-transform: uppercase;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            top: 0;
-            left: 50%;
             width: auto;
             border-radius: 10px;
             padding: 5px;
