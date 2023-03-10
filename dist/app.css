@@ -11,7 +11,7 @@ body {
   color: black;
   overflow-x: hidden;
   height: 100%;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 a, button {
   color: black;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .button {
@@ -427,6 +427,9 @@ footer .copyright {
   height: calc(100% + 40px);
   padding-top: 50px;
 }
+.banner-sec .content p {
+  padding: 0 30px 0 30px;
+}
 .banner-sec h1 {
   padding-bottom: 20px;
 }
@@ -641,6 +644,12 @@ footer .copyright {
 .artifact .topics-sec .topics .topic:hover {
   cursor: default;
 }
+.artifact .topics-sec .topics .topic-context {
+  display: none;
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(179, 179, 179);
+}
 .artifact .topics-sec .mobile-display img {
   width: 100%;
 }
@@ -719,11 +728,14 @@ footer .copyright {
     flex-direction: row;
     justify-content: space-around;
   }
-  .artifact .topics {
+  .artifact .topics-sec .topics {
     flex-basis: 40%;
   }
-  .artifact .topics .topic:hover {
-    cursor: pointer;
+  .artifact .topics-sec .topics .topic:hover {
+    background-color: #a041ff;
+  }
+  .artifact .topics-sec .topics .topic-context {
+    display: inline;
   }
   .artifact .desktop-display {
     position: relative;

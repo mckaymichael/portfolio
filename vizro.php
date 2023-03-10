@@ -23,7 +23,7 @@
                         <h3 class="text-purp">Competitive Analysis</h3>
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application. Below is one of our competitors websites: Westwood Recordings.</p>
+                            <p class="paragraph">We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application.</p>
                             <img src="images/vizro-competitor.jpg" alt="competitor analysis sheet for vizro">
                         </div>
                     </div>
@@ -43,6 +43,7 @@
                             <img src="images/vizro-content.jpg" alt="content from vizro's rough work">
                         </div>
                     </div>
+                    <p class="topic-context">Click on a step for more info.</p>
                 </div>
                 <div class="desktop-display vizro-overlay-bg">
                     <div class="opacity-fltr"></div>
