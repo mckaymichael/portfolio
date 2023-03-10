@@ -34,6 +34,7 @@
                             <p class="paragraph">When it comes to design and color theory, I'm completely new to it. So I like to take any opportunity to create mockups that come my way. This app certainly was a challenge, and ultimately, I'm glad how the first few pages look and feel to the user.</p>
                         </div>
                     </div>
+                    <p class="topic-context">Click on a step for more info.</p>
                 </div>
                 <div class="desktop-display gogro-overlay-bg">
                     <div class="opacity-fltr"></div>
