@@ -50,14 +50,14 @@
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
-                        <a href="gogro.php">
-                            <img src="images/gogro/login.png" alt="login page for gogro app">
+                        <a href="http://cssprojects.michaelkmckay.com/" target="_blank">
+                            <img src="images/my-css-projects.png" alt="home page for my css projects website">
                         </a>
                     </div>
                     <div class="content flex align-center">
                         <h2 class="nickainley-font">My CSS Projects</h2>
                         <p class="text">My smaller CSS projects that should get a little bit of love.</p>
-                        <button class="border-purp button flex bold"><a href="gogro.php">See The Process</a></button>
+                        <button class="border-purp button flex bold"><a href="http://cssprojects.michaelkmckay.com/" target="_blank">View Projects</a></button>
                     </div>
                 </div>
                 <div class="push-flex-left"></div>
