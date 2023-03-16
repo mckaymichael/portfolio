@@ -54,7 +54,7 @@ a, button {
 }
 
 p {
-  line-height: 22px;
+  line-height: normal;
 }
 
 .nickainley-font {
