@@ -1,16 +1,15 @@
-<?php require_once('init.php')?>
-<?php require_once('globals/head.php');?>
+<?php require_once('init.php') ?>
+<?php require_once('globals/head.php'); ?>
+
 <body>
-    <?php require('globals/header.php');?>
+    <?php require('globals/header.php'); ?>
     <div class="theme-wrapper">
         <main class="projects">
             <section class="proj-card-sec flex align-center">
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
-                        <a href="vizro.php">
-                            <img src="images/apparel.png" alt="">
-                        </a>
+                        <img src="images/apparel.png" alt="">
                     </div>
                     <div class="content flex align-center">
                         <h2 class="nickainley-font">Vizro</h2>
@@ -21,9 +20,7 @@
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
-                        <a href="vizro.php">
-                            <img src="images/notes.png" alt="">
-                        </a>
+                        <img src="images/notes.jpg" alt="">
                     </div>
                     <div class="content flex align-center">
                         <h2 class="nickainley-font">Note Taking Application</h2>
@@ -37,9 +34,7 @@
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
-                        <a href="gogro.php">
-                            <img src="images/gogro/login.png" alt="login page for gogro app">
-                        </a>
+                        <img src="images/gogro/login.png" alt="login page for gogro app">
                     </div>
                     <div class="content flex align-center">
                         <h2 class="nickainley-font">Gogro</h2>
@@ -50,9 +45,7 @@
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
-                        <a href="http://cssprojects.michaelkmckay.com/" target="_blank">
-                            <img src="images/my-css-projects.png" alt="home page for my css projects website">
-                        </a>
+                        <img src="images/my-css-projects.jpg" alt="home page for my css projects website">
                     </div>
                     <div class="content flex align-center">
                         <h2 class="nickainley-font">My CSS Projects</h2>
@@ -65,6 +58,7 @@
             </section>
         </main>
     </div>
-    <?php require('globals/footer.php');?>
+    <?php require('globals/footer.php'); ?>
 </body>
+
 </html>
