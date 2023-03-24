@@ -37,9 +37,6 @@
             <li title="my GitHub profile">
                 <a href="https://github.com/mckaymichael" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
             </li>
-            <li title="my DEV profile">
-                <a href="https://dev.to/mckaymichael" target="_blank"><i class="fa-brands fa-dev fa-xl"></i></a>
-            </li>
             <li title="my LinkedIn profile">
                 <a href="https://www.linkedin.com/in/michael-mckay-76179b1a8/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
             </li>
