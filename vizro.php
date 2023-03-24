@@ -15,7 +15,7 @@
                         <h3 class="text-purp">Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
-                            <p class="paragraph"> I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
+                            <p class="paragraph">I found brainstorming to be quite enjoyable with the right group. Pitching ideas and getting creative is always fun, and I found it to be a good way to speak freely to group members about my thoughts.</p>
                             <img src="images/vizro-style-tile.png" alt="style sheet for vizro">
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <h3 class="text-purp">Competitive Analysis</h3>
                         <p>Learning about what other websites are doing right and wrong.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application.</p>
+                            <p class="paragraph">We chose popular websites that we aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us come up with our own ideas for a better application.</p>
                             <img src="images/vizro-competitor.jpg" alt="competitor analysis sheet for vizro">
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                         <h3 class="text-purp">Work Breakdown Structure</h3>
                         <p>Deciding on how much efffort the process will take.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">Although I was not in charge of this portion of the project, the work breakdown structure was a big help to identifying who is in charge of what tasks. It helped give a scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
+                            <p class="paragraph">Although I was not in charge of this portion of the project, the work breakdown structure was a big help in identifying who was in charge of what tasks. It helped give scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
                             <img src="images/vizro-wbs-sheet.jpg" alt="work breakdown structure sheet for vizro">
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         <h3 class="text-purp">Mockups & Content</h3>
                         <p>Creating assets for the app.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in moind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
+                            <p class="paragraph">Here is where I excelled as one of the UI/UX designers. The hardest challenge was trying to live up to the graphic designers' ideas for what they had in mind for the website. We were told to create a futuristic-looking website, and I think we pulled through in the end. I'm proud of this piece.</p>
                             <img src="images/vizro-content.jpg" alt="content from vizro's rough work">
                         </div>
                     </div>
@@ -50,19 +50,19 @@
                     <div class="overlay bg-purp flex">
                         <div id="brainstorming" class="active overlay-content">
                             <h4 class="bold">Brainstorming</h4>
-                            <p>I found brainstorming can be quite enjoyable with the right group. Pitching ideas and getting creative is always fun and I found it almost to be a good way to speak freely to group members about my thoughts.</p>
+                            <p>I found brainstorming to be quite enjoyable with the right group. Pitching ideas and getting creative is always fun, and I found it to be a good way to speak freely to group members about my thoughts.</p>
                         </div>
                         <div id="comp-analysis" class="inactive overlay-content">
                             <h4 class="bold">Competitve Analysis</h4>
-                            <p>We chose popular websites that we essentially aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us with coming up with our own ideas for a better application.</p>
+                            <p>We chose popular websites that we aspired to become. We saw a lot of good ideas for features, user interactions, and user interface elements from our competitors. This helped us come up with our own ideas for a better application.</p>
                         </div>
                         <div id="wrk-brkdwn-structure" class="inactive overlay-content">
                             <h4 class="bold">Work Breakdown Structure</h4>
-                            <p>Although I was not in charge of this portion of the project, the work breakdown structure was a big help to identifying who is in charge of what tasks. It helped give a scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
+                            <p>Although I was not in charge of this portion of the project, the work breakdown structure was a big help in identifying who was in charge of what tasks. It helped give scope to the project, evenly distribute workload, and reduce stress of the unknown.</p>
                         </div>
                         <div id="mockups-content" class="inactive overlay-content">
                             <h4 class="bold">Mockups &amp; Content</h4>
-                            <p>Here is where I excelled as one of the UI/UX developers. The hardest challenge was trying to live up the the graphic designers ideas for what they had in mind for the website. We were told to create a futuristic looking website. I think we pulled through in the end, and I'm proud of this piece.</p>
+                            <p>Here is where I excelled as one of the UI/UX designers. The hardest challenge was trying to live up to the graphic designers' ideas for what they had in mind for the website. We were told to create a futuristic-looking website, and I think we pulled through in the end. I'm proud of this piece.</p>
                         </div>
                     </div>
                 </div>

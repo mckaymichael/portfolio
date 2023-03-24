@@ -15,7 +15,7 @@
                         <h3 class="text-purp">Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">This was a marketing project, aimed to build an app and start it with a plan on how we would get it running and bring in revenue. I did most of the design's brainstorming in my head.</p>
+                            <p class="paragraph">This was a marketing project aimed at building an app and creating a plan for how we would run it and generate revenue. I did most of the design brainstorming in my head.</p>
                             <img src="images/gogro/app-plan.jpg" alt="documentation for gogro app">
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <h3 class="text-purp">The Pitch</h3>
                         <p>The idea that would make this app stand out from the rest.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">GoGro is already an existing grocery app, but this app is used for educational purposes and will not be used for any other use. To differentiate this app from the rest of the grocery apps, is that it would track all the food you've bought, display expiration dates for that food and send you warnings whenever your food is about to expire, and give you recipes that would help you use up that food so that it never goes to waste.</p>
+                            <p class="paragraph">GoGro is an existing grocery app, but this app is intended for educational purposes only and will not be used for any other purposes. To differentiate this app from other grocery apps, it would track all the food you've bought, display expiration dates for that food, and send you warnings whenever your food is about to expire. It would also give you recipes that would help you use up the food so that it never goes to waste.</p>
                             <img src="images/gogro/Welcome.png" alt="home page for gogro">
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                         <h3 class="text-purp">Mockups & Content</h3>
                         <p>Creating wireframes and user flows.</p>
                         <div class="mobile-display">
-                            <p class="paragraph">When it comes to design and color theory, I'm completely new to it. So I like to take any opportunity to create mockups that come my way. This app certainly was a challenge, and ultimately, I'm glad how the first few pages look and feel to the user.</p>
+                            <p class="paragraph">When it comes to design and color theory, I'm completely new to it. So I like to take any opportunity to create mockups that come my way. This app was certainly a challenge, and ultimately, I'm glad with how the first few pages look and feel to the user.</p>
                         </div>
                     </div>
                     <p class="topic-context">Click on a step for more info.</p>
@@ -41,15 +41,15 @@
                     <div class="overlay bg-purp flex">
                         <div id="brainstorming" class="active overlay-content">
                             <h4 class="bold">Brainstorming</h4>
-                            <p>This was a marketing project, aimed to build an app and start it with a plan on how we would get it running and bring in revenue. I did most of the design's brainstorming in my head.</p>
+                            <p>This was a marketing project aimed at building an app and creating a plan for how we would run it and generate revenue. I did most of the design brainstorming in my head.</p>
                         </div>
                         <div id="comp-analysis" class="inactive overlay-content">
                             <h4 class="bold">Competitve Analysis</h4>
-                            <p>GoGro is already an existing grocery app, but this app is used for educational purposes and will not be used for any other use. To differentiate this app from the rest of the grocery apps, is that it would track all the food you've bought, display expiration dates for that food and send you warnings whenever your food is about to expire, and give you recipes that would help you use up that food so that it never goes to waste.</p>
+                            <p>GoGro is an existing grocery app, but this app is intended for educational purposes only and will not be used for any other purposes. To differentiate this app from other grocery apps, it would track all the food you've bought, display expiration dates for that food, and send you warnings whenever your food is about to expire. It would also give you recipes that would help you use up the food so that it never goes to waste.</p>
                         </div>
                         <div id="mockups-content" class="inactive overlay-content">
                             <h4 class="bold">Mockups &amp; Content</h4>
-                            <p>When it comes to design and color theory, I'm completely new to it. So I like to take any opportunity to create mockups that come my way. This app certainly was a challenge, and ultimately, I'm glad how the first few pages look and feel to the user.</p>
+                            <p>When it comes to design and color theory, I'm completely new to it. So I like to take any opportunity to create mockups that come my way. This app was certainly a challenge, and ultimately, I'm glad with how the first few pages look and feel to the user.</p>
                         </div>
                     </div>
                 </div>
