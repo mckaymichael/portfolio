@@ -12,7 +12,9 @@
                 </div>
                 <div class="content flex align-center">
                     <h1 class="nickainley-font">About Me</h1>
-                    <p>My name is Michael McKay. It took me a while to find what I love, but ultimately that passion became coding and art. I love to learn, and it's usually what I spend my time doing outside of school. If it's not learning how to draw, code, linguistics, or design, I'm either climbing, coaching basketball, doing photography, or walking my dogs.</p>
+                    <p>Hello, I'm Michael, a recent graduate of the New Media Design &amp; Web Development program at British Columbia Institute of Technology, located in Langley, British Columbia. I have a passion for developing clean and efficient code while creating engaging user experiences.</p>
+                    <p>Throughout my studies, I have gained expertise in JavaScript, React-Native, and Figma. I am excited to apply my skills and knowledge to real-world projects and continue to grow as a developer. As a recent graduate, I am currently seeking an internship opportunity to gain hands-on experience and further develop my skills.</p>
+                    <p>I am a team player who enjoys collaborating and problem-solving with others. I believe in a user-centered design approach and strive to create user-friendly experiences that are both aesthetically pleasing and functional. I am eager to learn and work with a team of professionals to create innovative and impactful solutions.</p>
                 </div>
             </section>
             <section class="core-values-sec flex align-center">
