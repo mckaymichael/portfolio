@@ -70,7 +70,7 @@
             </section>
             <section class="artifact-all-pages flex align-center">
                 <img src="images/gogro/all-pages.png" alt="all gogro pages created in high fidelity wireframes">
-                <button class="button border-purp flex bold"><a href="https://www.figma.com/file/qir9C8Unu62WiB0lzOSTsP/gogro?node-id=210%3A3&t=dZxWCCdKw9LdR691-1" target="_blank">Get a Better Look</a></button>
+                <button class="button border-purp flex bold" title="View GoGro prototype"><a href="https://www.figma.com/file/qir9C8Unu62WiB0lzOSTsP/gogro?node-id=210%3A3&t=dZxWCCdKw9LdR691-1" target="_blank">Get a Better Look</a></button>
             </section>
         </main>
     </div>

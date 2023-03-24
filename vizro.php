@@ -83,7 +83,7 @@
             </section>
             <section class="artifact-all-pages flex align-center">
                 <img src="images/vizro-pages.png" alt="all vizro pages created in high fidelity wireframes">
-                <button class="button border-purp flex bold"><a href="https://www.figma.com/proto/bYlEIhPmARDgzSSPx2Xaqi/VIZRO-MOBILE-Wireframes?node-id=0%3A1&viewport=-736%2C54%2C0.08&scaling=scale-down&starting-point-node-id=47%3A2072&show-proto-sidebar=1" target="_blank">Visit the Prototype</a></button>
+                <button class="button border-purp flex bold"><a href="https://www.figma.com/proto/bYlEIhPmARDgzSSPx2Xaqi/VIZRO-MOBILE-Wireframes?node-id=0%3A1&viewport=-736%2C54%2C0.08&scaling=scale-down&starting-point-node-id=47%3A2072&show-proto-sidebar=1" target="_blank" title="Visit Prototype">Visit the Prototype</a></button>
             </section>
         </main>
     </div>
