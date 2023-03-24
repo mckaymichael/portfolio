@@ -19,7 +19,7 @@
                     <div class="content">
                         <h3 class="bg-white bold">Notes App</h3>
                         <div class="image-container">
-                            <a href="http://crud.michaelkmckay.com/public/" target="_blank">
+                            <a href="http://crud.michaelkmckay.com/public/" target="_blank" title="Go to Crud Website">
                                 <img src="images/notes.jpg" alt="Screenshot of the Homepage for a note taking application">
                             </a>
                             <div class="chip-container flex-wrap">
@@ -38,7 +38,7 @@
                     <div class="content">
                         <h3 class="bg-white bold">Vizro Records</h3>
                         <div class="image-container">
-                            <a href="vizro.php">
+                            <a href="vizro.php" title="Go to Vizro page">
                                 <img src="images/vizro-home.png" alt="vizro mobile home page">
                             </a>
                             <div class="chip-container flex-wrap">

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is my portfolio website. I'm as web developer and ux developer.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio, coding, web developer, web developer, ux developer">
+    <meta name="description" content="Michael McKay is a skilled UI/UX designer and web developer, specializing in creating beautiful and functional websites that enhance user experience.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio, coding, web developer, web developer, ux developer, UI/UX, web design, web development, user experience, front-end development, responsive design">
     <meta name="author" content="Michael McKay">
+    <link rel="canonical" href="https://michaelkmckay.com/">
     <title>Michael McKay</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
