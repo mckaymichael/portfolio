@@ -18,13 +18,13 @@
             <nav class="footer-nav flex align-center">
                 <ul class="flex align-center">
                     <li title="Home">
-                        <a href="index.php"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                        <a href="index.php"><i class="fa-solid fa-house xl"></i><span>Home</span></a>
                     </li>
                     <li title="About me">
                         <a href="about.php"><i class="fa-solid fa-user xl"></i><span>About</span></a>
                     </li>
                     <li title="Projects">
-                        <a href="projects.php"><i class="fa-solid fa-pen-ruler"></i><span>Projects</span></a>
+                        <a href="projects.php"><i class="fa-solid fa-pen-ruler xl"></i><span>Projects</span></a>
                     </li>
                 </ul>
             </nav>

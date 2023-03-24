@@ -241,12 +241,12 @@ footer {
             li {
                 flex-basis: auto;
                 padding: 5px;
-            }
-            a {
-                i {
-                margin-right: 5px;
-                transition: 0.2s;
-                width: 2rem;
+                a {
+                    i {
+                    margin-right: 5px;
+                    transition: 0.2s;
+                    display: inherit;
+                    }
                 }
             }
         }

@@ -223,10 +223,10 @@ footer .footer-nav ul li {
   flex-basis: auto;
   padding: 5px;
 }
-footer .footer-nav ul a i {
+footer .footer-nav ul li a i {
   margin-right: 5px;
   transition: 0.2s;
-  width: 2rem;
+  display: inherit;
 }
 footer .line-break {
   width: 100%;
