@@ -29,6 +29,7 @@ button {
 	background-color: transparent;
 	color: black;
 	border: none;
+	padding: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
