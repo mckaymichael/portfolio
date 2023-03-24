@@ -22,16 +22,16 @@
                             <a href="http://crud.michaelkmckay.com/public/" target="_blank">
                                 <img src="images/notes.jpg" alt="Screenshot of the Homepage for a note taking application">
                             </a>
-                        </div>
-                        <div class="chip-container flex-wrap">
-                            <div class="chip border-purp flex align-center">
-                                <h4>Coding</h4>
-                            </div>
-                            <div class="chip border-purp flex align-center">
-                                <h4>SQL</h4>
-                            </div>
-                            <div class="chip border-purp flex align-center">
-                                <h4>PhP & Databases</h4>
+                            <div class="chip-container flex-wrap">
+                                <div class="chip border-purp flex align-center">
+                                    <h4>Coding</h4>
+                                </div>
+                                <div class="chip border-purp flex align-center">
+                                    <h4>SQL</h4>
+                                </div>
+                                <div class="chip border-purp flex align-center">
+                                    <h4>PhP & Databases</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,18 +41,18 @@
                             <a href="vizro.php">
                                 <img src="images/vizro-home.png" alt="vizro mobile home page">
                             </a>
+                            <div class="chip-container flex-wrap">
+                                <div class="chip border-purp">
+                                    <h4>Team Project</h4>
+                                </div> 
+                                <div class="chip border-purp">
+                                    <h4>UX/UI</h4>
+                                </div>               
+                                <div class="chip border-purp">
+                                    <h4>Design</h4>
+                                </div>               
+                            </div>
                         </div> 
-                        <div class="chip-container flex-wrap">
-                            <div class="chip border-purp">
-                                <h4>Team Project</h4>
-                            </div> 
-                            <div class="chip border-purp">
-                                <h4>UX/UI</h4>
-                            </div>               
-                            <div class="chip border-purp">
-                                <h4>Design</h4>
-                            </div>               
-                        </div>
                     </div>
                 </div>
             </section>
