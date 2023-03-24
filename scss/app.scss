@@ -719,10 +719,8 @@ footer {
     .desktop-display {
         display: none;
         .overlay {
-            width: 90%;
             padding: 20px;
             max-width: 450px;
-            border-radius: 0px 750px 750px 0px;
             position: absolute;
             top: 0;
             left: 0;
@@ -732,10 +730,6 @@ footer {
             h4 {
                 font-size: 1.8rem;
                 padding-bottom: 20px;
-                padding-right: 35px;
-            }
-            p {
-                padding-right: 30px;
             }
         }
     }

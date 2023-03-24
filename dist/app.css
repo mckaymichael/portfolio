@@ -664,10 +664,8 @@ footer .copyright {
   display: none;
 }
 .artifact .desktop-display .overlay {
-  width: 90%;
   padding: 20px;
   max-width: 450px;
-  border-radius: 0px 750px 750px 0px;
   position: absolute;
   top: 0;
   left: 0;
@@ -678,10 +676,6 @@ footer .copyright {
 .artifact .desktop-display .overlay h4 {
   font-size: 1.8rem;
   padding-bottom: 20px;
-  padding-right: 35px;
-}
-.artifact .desktop-display .overlay p {
-  padding-right: 30px;
 }
 .artifact .opacity-fltr {
   position: relative;
