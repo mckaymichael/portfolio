@@ -5,12 +5,12 @@
     <div class="theme-wrapper">
         <main class="artifact">
             <section class="title-sec">
-                <h1 class="nickainley-font">BrightSky Mobile UX Mockup</h1>
+                <h1 class="header-font">BrightSky Mobile UX Mockup</h1>
                 <img class="brightsky-logo" src="images/brightsky-logo.png" alt="Brightsky logo">
             </section>
             <section class="topics-sec">
                 <div class="topics">
-                    <h2 class="nickainley-font">The Steps Before The Results</h2>
+                    <h2 class="header-font">The Steps Before The Results</h2>
                     <div class="topic" data-desktop-id="brainstorming">
                         <h3>Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
@@ -65,7 +65,7 @@
                 </div>
             </section>
             <section class="results">
-                <h2 class="nickainley-font">The Results</h2>
+                <h2 class="header-font">The Results</h2>
                 <div class="content content-mobile">
                     <div>
                         <h3>Constellation Page</h3>

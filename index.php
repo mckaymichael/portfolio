@@ -10,11 +10,11 @@
                 </div>
                 <div class="titles">
                     <h2>Michael McKay</h2>
-                    <h1 class="nickainley-font">Full Stack Web Developer <br>&amp;<br> UX Developer</h1>
+                    <h1 class="header-font">Full Stack Web Developer <br>&amp;<br> UX Designer</h1>
                 </div>
             </section>
             <section id="featured">
-                <h2 class="nickainley-font">Featured Projects</h2>
+                <h2 class="header-font">Featured Projects</h2>
                 <div class="feature-blocks flex">
                     <div class="content">
                         <h3 class="bg-white bold">Notes App</h3>

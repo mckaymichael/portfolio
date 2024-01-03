@@ -5,12 +5,12 @@
     <div class="theme-wrapper">
         <main class="artifact">
             <section class="title-sec">
-                <h1 class="nickainley-font">My JavaScript Website</h1>
+                <h1 class="header-font">My JavaScript Website</h1>
                 <img src="images/js-website-welcome.jpg" alt="javascript website home page snapshot of h1 tag saying Welcome to my website. I spent way too much time on this.">
             </section>
             <section class="topics-sec">
                 <div class="topics">
-                    <h2 class="nickainley-font">The Steps Before The Results</h2>
+                    <h2 class="header-font">The Steps Before The Results</h2>
                     <div class="topic" data-desktop-id="brainstorming">
                         <h3>Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
@@ -63,7 +63,7 @@
                 </div>
             </section>
             <section class="results">
-                <h2 class="nickainley-font">The Results</h2>
+                <h2 class="header-font">The Results</h2>
                 <div class="content content-mobile">
                     <div>
                         <h3>Variables Section</h3>

@@ -41,6 +41,6 @@
                 <a href="https://www.linkedin.com/in/michael-mckay-76179b1a8/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
             </li>
         </ul>
-        <p class="copyright text-purp">&copy;Michael McKay 2023</p>
+        <p class="copyright text-purp">&copy;Michael McKay 2024</p>
     </div>
 </footer>

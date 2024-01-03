@@ -5,12 +5,12 @@
     <div class="theme-wrapper">
         <main class="artifact">
             <section class="title-sec flex align-center">
-                <h1 class="nickainley-font">Gogro Grocery App</h1>
+                <h1 class="header-font">Gogro Grocery App</h1>
                 <?php require("images/gogro/gogro-logo.svg"); ?>
             </section>
             <section class="topics-sec flex">
                 <div class="topics">
-                    <h2 class="nickainley-font">The Steps Before The Results</h2>
+                    <h2 class="header-font">The Steps Before The Results</h2>
                     <div class="topic border-purp flex bold" data-desktop-id="brainstorming">
                         <h3 class="text-purp">Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
@@ -55,7 +55,7 @@
                 </div>
             </section>
             <section class="results flex align-center">
-                <h2 class="nickainley-font">The Results</h2>
+                <h2 class="header-font">The Results</h2>
                 <div class="content content-mobile flex align-center">
                     <div>
                         <h3 class="text-purp bold">Shopping</h3>
@@ -70,7 +70,7 @@
             </section>
             <section class="artifact-all-pages flex align-center">
                 <img src="images/gogro/all-pages.png" alt="all gogro pages created in high fidelity wireframes">
-                <button class="button border-purp flex bold" title="View GoGro prototype"><a href="https://www.figma.com/file/qir9C8Unu62WiB0lzOSTsP/gogro?node-id=210%3A3&t=dZxWCCdKw9LdR691-1" target="_blank">Get a Better Look</a></button>
+                <button class="button border-purp flex bold" title="View GoGro prototype"><a href="https://drive.google.com/drive/folders/1Ypk7lXbunfX5HmShuCJQ1hllPyt_K1tF?usp=sharing" target="_blank">Get a Better Look</a></button>
             </section>
         </main>
     </div>

@@ -5,12 +5,12 @@
     <div class="theme-wrapper">
         <main class="artifact">
             <section class="title-sec flex align-center">
-                <h1 class="nickainley-font">Vizro Records Record Label</h1>
+                <h1 class="header-font">Vizro Records Record Label</h1>
                 <img src="images/vizro-logo.png" alt="vizro logo">
             </section>
             <section class="topics-sec flex">
                 <div class="topics">
-                    <h2 class="nickainley-font">The Steps Before The Results</h2>
+                    <h2 class="header-font">The Steps Before The Results</h2>
                     <div class="topic border-purp flex bold" data-desktop-id="brainstorming">
                         <h3 class="text-purp">Brainstorming</h3>
                         <p>Setting ourselves up for a smooth project.</p>
@@ -68,7 +68,7 @@
                 </div>
             </section>
             <section class="results flex align-center">
-                <h2 class="nickainley-font">The Results</h2>
+                <h2 class="header-font">The Results</h2>
                 <div class="content content-mobile flex align-center">
                     <div>
                         <h3 class="text-purp bold">Shopping</h3>

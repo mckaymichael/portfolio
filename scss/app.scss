@@ -1,6 +1,5 @@
 @use "base/variables" as vars;
 
-
 @forward "base/home";
 
 // Global Styles 
@@ -60,8 +59,9 @@ p {
     line-height: normal;
 }
 
-.nickainley-font {
-    font-family: 'Nickainley', sans-serif;
+.header-font {
+    font-family: 'Cardo', serif;
+    font-weight: 700;
 }
 
 .border-purp {
@@ -140,7 +140,6 @@ header {
         }
         i {
             margin-right: 5px;
-            transition: 0.2s;
         }
         span {
             display: none;
@@ -157,20 +156,20 @@ header {
     .header-nav {
         a:hover {
             color: #a041ff;
-            transition: 0.33s;
+            transition: 0.2s;
             & i {
                 color: #a041ff;
-                transition: 0.33s;
+                transition: 0.2s;
             }
         }
     }
     footer {
         a:hover {
             color: #a041ff;
-            transition: 0.33s;
+            transition: 0.2s;
             & i {
                 color: #a041ff;
-                transition: 0.33s;
+                transition: 0.2s;
             }
         }
     }
@@ -419,6 +418,12 @@ footer {
             }
         }
         .image-container {
+            a {
+                :hover {
+                    transition: all 0.2s;
+                    scale: 1.05;
+                }
+            }
             height: fit-content;
             img {
                 height: 25vw;
