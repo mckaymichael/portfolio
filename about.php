@@ -6,14 +6,12 @@
         <main>
             <section class="banner-sec flex">
                 <div class="images-of-me flex align-center">
-                    <img class="portrait border-purp" src="images/me1.jpg" alt="front facing camera of man's face">
-                    <img class="portrait border-purp" src="images/me2.jpg" alt="front facing camera of man's face">
-                    <img class="portrait border-purp" src="images/me3.jpg" alt="front facing camera of man's face">
+                    <img class="portrait border-purp" src="images/me-and-ponto.jpg" alt="front facing camera of man's face with a large black dog">
                 </div>
                 <div class="content flex align-center">
                     <h1 class="header-font">About Me</h1>
                     <p>Hello, I'm Michael, a recent graduate of the New Media Design &amp; Web Development program at British Columbia Institute of Technology, located in Langley, British Columbia. I have a passion for developing clean and efficient code while creating engaging user experiences.</p>
-                    <p>Throughout my studies, I have gained expertise in JavaScript, React-Native, and Figma. I am excited to apply my skills and knowledge to real-world projects and continue to grow as a developer. As a recent graduate, I am currently seeking an internship opportunity to gain hands-on experience and further develop my skills.</p>
+                    <p>Throughout my studies, I have gained expertise in JavaScript, React-Native, and Figma. I am excited to apply my skills and knowledge to real-world projects and continue to grow as a developer. I am currently seeking a role in front or back end development or UI/UX design.</p>
                     <p>I am a team player who enjoys collaborating and problem-solving with others. I believe in a user-centered design approach and strive to create user-friendly experiences that are both aesthetically pleasing and functional. I am eager to learn and work with a team of professionals to create innovative and impactful solutions.</p>
                 </div>
             </section>

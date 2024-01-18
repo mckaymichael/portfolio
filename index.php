@@ -17,10 +17,10 @@
                 <h2 class="header-font">Featured Projects</h2>
                 <div class="feature-blocks flex">
                     <div class="content">
-                        <h3 class="bg-white bold">Notes App</h3>
+                        <h3 class="bg-white bold">SnapSo React App</h3>
                         <div class="image-container">
-                            <a href="http://crud.michaelkmckay.com/public/" target="_blank" title="Go to Crud Website">
-                                <img src="images/notes.jpg" alt="Screenshot of the Homepage for a note taking application">
+                            <a href="https://snap-so-jsm-tutorial-9fdrok6yr-michael-mckays-projects.vercel.app" target="_blank" title="Go to Snapso Website">
+                                <img src="images/snapso-thumbnail.png" alt="Screenshot of the Homepage for an Instagram copy web application">
                             </a>
                             <div class="chip-container flex-wrap">
                                 <div class="chip border-purp flex align-center">

@@ -6,6 +6,17 @@
     <div class="theme-wrapper">
         <main class="projects">
             <section class="proj-card-sec flex align-center">
+            <div class="proj-card">
+                    <div class="card-overlay"></div>
+                    <div class="img-container">
+                        <img src="images/snapso-thumbnail.png" alt="thumbnail for snapso log in page">
+                    </div>
+                    <div class="content flex align-center">
+                        <h2 class="header-font">SnapSo - Social Media App</h2>
+                        <p class="text">Create an account and explore this variation of an Instagram styled app made in React. I use Appwrite for the backend and Vercel for deployment.</p>
+                        <button class="border-purp button flex bold" title="CSS Projects website"><a href="https://snap-so-jsm-tutorial-9fdrok6yr-michael-mckays-projects.vercel.app" target="_blank">View Project</a></button>
+                    </div>
+                </div>
                 <div class="proj-card">
                     <div class="card-overlay"></div>
                     <div class="img-container">
@@ -42,17 +53,7 @@
                         <button class="border-purp button flex bold" title="Go to GoGro page"><a href="gogro.php">See The Process</a></button>
                     </div>
                 </div>
-                <!-- <div class="proj-card">
-                    <div class="card-overlay"></div>
-                    <div class="img-container">
-                        <img src="images/my-css-projects.jpg" alt="home page for my css projects website">
-                    </div>
-                    <div class="content flex align-center">
-                        <h2 class="header-font">My CSS Projects</h2>
-                        <p class="text">My smaller CSS projects that should get a little bit of love.</p>
-                        <button class="border-purp button flex bold" title="CSS Projects website"><a href="http://cssprojects.michaelkmckay.com/" target="_blank">View Projects</a></button>
-                    </div>
-                </div> -->
+               
                 <div class="push-flex-left"></div>
                 <div class="push-flex-left"></div>
             </section>
